@@ -7,8 +7,10 @@ und Kalorienangaben haben. Die App lädt die Datei einmal herunter und sucht dan
 ## So funktioniert es
 
 - Die GitHub-Aufgabe [`daten.yml`](.github/workflows/daten.yml) läuft jeden Montag um 02:23 UTC (und bei Änderungen an Skripten).
-- Sie lädt den täglichen Export von Open Food Facts (`en.openfoodfacts.org.products.csv.gz`, etwa 0,9 GB),
-  filtert mit [`scripts/build_de.py`](scripts/build_de.py) und veröffentlicht das Ergebnis im Zweig `gh-pages`:
+- Sie liest den vollständigen täglichen Export von Open Food Facts (`openfoodfacts-products.jsonl.gz`, etwa 13 GB) als Datenstrom,
+  ohne ihn zu speichern, und filtert mit [`scripts/build_de_json.py`](scripts/build_de_json.py). Klappt das nicht, nimmt sie den
+  kleineren CSV-Export mit [`scripts/build_de.py`](scripts/build_de.py) (dort oft englische Namen).
+- Das Ergebnis landet im Zweig `gh-pages`:
   - `de-JJJJMMTT.tsv.gz`: die Produkte, beliebteste zuerst
   - `manifest.json`: Stand, Dateiname, Anzahl, Größe, SHA-256
   - `report.md`: Zahlen, Handelsmarken und häufigste Marken
@@ -20,6 +22,11 @@ und Kalorienangaben haben. Die App lädt die Datei einmal herunter und sucht dan
 Ein Produkt wird übernommen, wenn seine Länder Deutschland enthalten, es einen Namen hat und Kalorien pro 100 g oder ml
 angegeben sind (0 bis 950 kcal). Eiweiß, Kohlenhydrate und Fett dürfen fehlen. Pro Produkt: Barcode, Name, Marke, Menge,
 Einheit (g oder ml), kcal, Eiweiß, Kohlenhydrate, Fett, Portion und ein Verweis auf das Produktbild.
+
+- **Name:** deutscher Name, sonst der Name in der Hauptsprache, wenn die Deutsch ist, sonst Englisch.
+- **Nährwerte:** wie verkauft. Hat Open Food Facts für ein Produkt die zubereiteten Werte gewählt (etwa bei Kakaopulver),
+  nimmt das Skript die Angaben wie verkauft, wenn es welche gibt.
+- **Reihenfolge:** zuerst, was in Deutschland oft gescannt wurde, dann Produkte mit deutscher Hauptsprache und deutschem Namen.
 
 ## Lizenz
 

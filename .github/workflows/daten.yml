@@ -2,6 +2,7 @@ name: Deutsche Produkte
 
 # Holt jede Woche den Export von Open Food Facts, filtert die deutschen Produkte mit Nährwerten
 # und veröffentlicht sie im Zweig gh-pages (immer nur der neueste Stand plus die vorige Datei).
+# Quelle: der vollständige JSONL-Export (deutsche Namen, Hauptsprache, Werte wie verkauft), bei Problemen der CSV-Export.
 on:
   schedule:
     - cron: '23 2 * * 1'
@@ -23,21 +24,34 @@ concurrency:
 jobs:
   bauen:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
 
-      - name: Export von Open Food Facts laden
-        run: |
-          curl -fsSL --retry 5 --retry-delay 60 --retry-all-errors \
-            -A "Trainingsbuch-Daten/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
-            -o products.csv.gz https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz
-          ls -l products.csv.gz
-
-      - name: Deutsche Produkte filtern
+      - name: Deutsche Produkte aus dem vollständigen Export (JSONL, gestreamt)
+        id: jsonl
+        continue-on-error: true
+        timeout-minutes: 75
         run: |
           set -o pipefail
           mkdir -p out
+          UA="Trainingsbuch-Daten/1.0 (+https://github.com/${GITHUB_REPOSITORY})"
+          DEC="gzip -dc"; command -v pigz >/dev/null && DEC="pigz -dc"
+          for n in 1 2; do
+            if curl -fsSL -A "$UA" --speed-limit 500000 --speed-time 120 https://static.openfoodfacts.org/data/openfoodfacts-products.jsonl.gz \
+                | $DEC | LC_ALL=C grep -F '"en:germany"' | python3 scripts/build_de_json.py out; then exit 0; fi
+            echo "Versuch $n hat nicht geklappt"; rm -rf out; mkdir -p out; sleep 60
+          done
+          exit 1
+
+      - name: Rückfall auf den CSV-Export
+        if: steps.jsonl.outcome != 'success'
+        run: |
+          set -o pipefail
+          rm -rf out; mkdir -p out
+          curl -fsSL --retry 5 --retry-delay 60 --retry-all-errors \
+            -A "Trainingsbuch-Daten/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
+            -o products.csv.gz https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz
           gunzip -c products.csv.gz | python3 scripts/build_de.py out
           rm products.csv.gz
 
