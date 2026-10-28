@@ -204,9 +204,10 @@ class Collector:
         os.makedirs(out, exist_ok=True)
         rows.sort()
         now = datetime.datetime.now(datetime.timezone.utc)
-        fname = 'de-%s.tsv.gz' % now.strftime('%Y%m%d')
         data = (VERSION_LINE + '\n' + '\n'.join(r[2] for r in rows) + '\n').encode('utf-8')
         gz = gzip.compress(data, compresslevel=9, mtime=0)
+        # Name mit Prüfsumme: jede neue Fassung hat eine eigene Adresse (kein veralteter Zwischenspeicher, auch zweimal am Tag)
+        fname = 'de-%s-%s.tsv.gz' % (now.strftime('%Y%m%d'), hashlib.sha256(gz).hexdigest()[:8])
         with open(os.path.join(out, fname), 'wb') as fh:
             fh.write(gz)
         v = now.strftime('%Y-%m-%d')

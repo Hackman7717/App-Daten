@@ -24,7 +24,9 @@ for name, base, wait in bases:
                     cors = r.headers.get('Access-Control-Allow-Origin')
                     ctype = r.headers.get('Content-Type')
                 res[name] = {'ok': len(body) == man['bytes'], 'url': base, 'bytes': len(body), 'cors': cors, 'type': ctype}
-                break
+                if res[name]['ok']:
+                    break
+                last = 'Datei noch alt (%d Bytes)' % len(body)
         except Exception as e:  # noqa: BLE001 – jeder Fehler zählt als „noch nicht da“
             last = '%s: %s' % (type(e).__name__, e)
         time.sleep(20)
