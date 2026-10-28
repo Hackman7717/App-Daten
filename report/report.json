@@ -1,7 +1,7 @@
 {
  "stand": "2026-10-28",
  "quelle": "JSONL-Export (openfoodfacts-products.jsonl.gz)",
- "datei": "de-20261028.tsv.gz",
+ "datei": "de-20261028-4e8b79c0.tsv.gz",
  "mb": 7.3,
  "mb_entpackt": 19.3,
  "zaehler": {
@@ -22,7 +22,7 @@
   "werte_alt": 83,
   "veraltet": 83
  },
- "sekunden": 515,
+ "sekunden": 400,
  "top_marken": [
   [
    "ALDI",

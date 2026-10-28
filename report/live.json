@@ -1,13 +1,12 @@
 {
  "version": "2026-10-28",
- "datei": "de-20261028.tsv.gz",
+ "datei": "de-20261028-4e8b79c0.tsv.gz",
  "pages": {
-  "ok": false,
+  "ok": true,
   "url": "https://hackman7717.github.io/App-Daten/",
-  "bytes": 6878794,
+  "bytes": 7254055,
   "cors": "*",
-  "type": "application/gzip",
-  "letzter_stand": "manifest 2026-10-28"
+  "type": "application/gzip"
  },
  "raw": {
   "ok": true,
