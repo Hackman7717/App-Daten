@@ -1,0 +1,2092 @@
+{
+ "kopf": "HTTP/2 302 \ncontent-length: 145\nHTTP/1.1 200 OK\nLast-Modified: Wed, 28 Oct 2026 05:16:34 GMT\nContent-Length: 13332518886\n",
+ "deutsche_docs": 2921,
+ "felder": {
+  "lang": 2921,
+  "lc": 2921,
+  "images": 2884,
+  "product_name": 2805,
+  "brands": 2769,
+  "nutrition": 2759,
+  "nutrition.input_sets": 2758,
+  "nutrition.aggregated_set": 2756,
+  "agg.preparation=as_sold": 2742,
+  "images.keys:selected,uploaded": 2739,
+  "quantity": 2687,
+  "unique_scans_n": 2494,
+  "popularity_tags": 2482,
+  "agg.per=100g": 2480,
+  "product_name_de": 2072,
+  "product_name_en": 1614,
+  "serving_quantity": 1579,
+  "agg.per=100ml": 276,
+  "agg.preparation=None": 165,
+  "agg.per=None": 165,
+  "nutrition.no_nutrition_data_on_packaging": 56,
+  "images.keys:selected": 50,
+  "images.keys:": 37,
+  "images.keys:1,front_de": 33,
+  "images.keys:1,2,3": 19,
+  "agg.preparation=prepared": 14,
+  "nutriments": 13,
+  "images.keys:1,2,front_de": 9,
+  "images.keys:1,front,front_de": 7,
+  "images.keys:1,front,front_fr": 4,
+  "images.keys:1,2,front_en": 3,
+  "images.keys:1": 3,
+  "images.keys:1,front,front_en": 3,
+  "images.keys:1,front_de,front_fr": 2,
+  "images.keys:1,2,front": 2,
+  "images.keys:1,front_en": 2,
+  "images.keys:1,front_fr": 2,
+  "images.keys:1,front_nl": 1,
+  "images.keys:1,2,ingredients_de": 1,
+  "images.keys:2,3,ingredients_de": 1,
+  "images.keys:1,front_de,front_en": 1,
+  "images.keys:1,front,front_hu": 1,
+  "images.keys:1,2,front_fr": 1
+ },
+ "beispiele": [
+  {
+   "code": "20005733",
+   "lang": "fr",
+   "lc": "fr",
+   "product_name": "Cerneaux de Noix",
+   "product_name_de": "Walnusskerne naturbelassen",
+   "product_name_en": "Cerneaux de Noix",
+   "brands": "Alesto",
+   "quantity": "200 gram",
+   "serving_quantity": 30,
+   "unique_scans_n": 661,
+   "countries_tags": [
+    "en:austria",
+    "en:belgium",
+    "en:bulgaria",
+    "en:croatia",
+    "en:denmark",
+    "en:france",
+    "en:germany",
+    "en:italy",
+    "en:netherlands",
+    "en:poland",
+    "en:portugal",
+    "en:romania",
+    "en:serbia",
+    "en:spain"
+   ],
+   "popularity_tags": [
+    "top-500-scans-2019",
+    "top-1000-scans-2019",
+    "top-5000-scans-2019",
+    "top-10000-scans-2019",
+    "top-50000-scans-2019",
+    "top-100000-scans-2019",
+    "at-least-5-scans-2019",
+    "at-least-10-scans-2019",
+    "top-75-percent-scans-2019",
+    "top-80-percent-scans-2019",
+    "top-85-percent-scans-2019",
+    "top-90-percent-scans-2019",
+    "top-1000-fr-scans-2019",
+    "top-5000-fr-scans-2019",
+    "top-10000-fr-scans-2019",
+    "top-50000-fr-scans-2019",
+    "top-100000-fr-scans-2019",
+    "top-country-fr-scans-2019",
+    "at-least-5-fr-scans-2019",
+    "at-least-10-fr-scans-2019",
+    "top-50-de-scans-2019",
+    "top-100-de-scans-2019",
+    "top-500-de-scans-2019",
+    "top-1000-de-scans-2019",
+    "top-5000-de-scans-2019",
+    "top-10000-de-scans-2019",
+    "top-50000-de-scans-2019",
+    "top-100000-de-scans-2019",
+    "at-least-5-de-scans-2019",
+    "at-least-10-de-scans-2019",
+    "top-500-es-scans-2019",
+    "top-1000-es-scans-2019",
+    "top-5000-es-scans-2019",
+    "top-10000-es-scans-2019",
+    "top-50000-es-scans-2019",
+    "top-100000-es-scans-2019",
+    "at-least-5-es-scans-2019",
+    "at-least-10-es-scans-2019",
+    "top-500-ch-scans-2019",
+    "top-1000-ch-scans-2019"
+   ],
+   "nutriments": {},
+   "nutrition": {
+    "aggregated_set": {
+     "preparation": "as_sold",
+     "per": "100g",
+     "nutrients": {
+      "proteins": {
+       "source_index": 0,
+       "unit": "g",
+       "source": "packaging",
+       "source_per": "100g",
+       "value": 15.5
+      },
+      "energy": {
+       "unit": "kJ",
+       "source_index": 0,
+       "source": "packaging",
+       "source_per": "100g",
+       "value": 2937.5,
+       "modifier": "~"
+      },
+      "carbohydrates": {
+       "source": "packaging",
+       "unit": "g",
+       "source_index": 0,
+       "value": 3.7,
+       "source_per": "100g"
+      },
+      "energy-kcal": {
+       "source_index": 0,
+       "unit": "kcal",
+       "source": "packaging",
+       "source_per": "100g",
+       "value_computed": 712.3,
+       "value": 712
+      },
+      "fat": {
+       "source_per": "100g",
+       "value": 69.1,
+       "source_index": 0,
+       "unit": "g",
+       "source": "packaging"
+      },
+      "energy-kj": {
+       "value": 2937.5,
+       "modifier": "~",
+       "source_per": "100g",
+       "source": "packaging",
+       "unit": "kJ",
+       "source_index": 0
+      }
+     }
+    },
+    "input_sets": [
+     {
+      "per_quantity": 100,
+      "per_unit": "g",
+      "preparation": "as_sold",
+      "source": "packaging",
+      "per": "100g",
+      "nutrients": {
+       "carbohydrates": {
+        "value": 3.7,
+        "value_string": "3.7",
+        "unit": "g"
+       },
+       "energy-kj": {
+        "unit": "kJ",
+        "value_computed": 2937.5
+       },
+       "energy-kcal": {
+        "unit": "kcal",
+        "value_string": "712",
+        "value": 712,
+        "value_computed": 712.3
+       },
+       "proteins": {
+        "value": 15.5,
+        "value_string": "15.5",
+        "unit": "g"
+       },
+       "fat": {
+        "unit": "g",
+        "value_string": "69.1",
+        "value": 69.1
+       }
+      }
+     },
+     {
+      "preparation": "as_sold",
+      "per_unit": "g",
+      "per_quantity": 30,
+      "per": "serving",
+      "last_updated_t": 1771832978,
+      "source": "packaging",
+      "nutrients": {
+       "carbohydrates": {
+        "value": 1.1,
+        "value_string": "1.1",
+        "unit": "g"
+       },
+       "energy-kj": {
+        "value_computed": 880.5,
+        "unit": "kJ"
+       },
+       "energy-kcal": {
+        "unit": "kcal",
+        "value_string": "214",
+        "value_computed": 213.5,
+        "value": 214
+       },
+       "fat": {
+        "value": 20.7,
+        "value_string": "20.7",
+        "unit": "g"
+       },
+       "proteins": {
+        "unit": "g",
+        "value": 4.7,
+        "value_string": "4.7"
+       }
+      }
+     },
+     {
+      "source_description": "Estimate from ingredients",
+      "source": "estimate",
+      "per_quantity": 100,
+      "per_unit": "g",
+      "preparation": "as_sold",
+      "per": "100g",
+      "nutrients": {
+       "carbohydrates": {
+        "unit": "g",
+        "value_string": "17.108728",
+        "modifier": "~",
+        "value": 17.108728
+       },
+       "proteins": {
+        "unit": "g",
+        "value": 18.9332,
+        "modifier": "~",
+        "value_string": "18.9332"
+       },
+       "energy": {
+        "value_string": "2685.072",
+        "modifier": "~",
+        "value": 2685.072,
+        "unit": "kJ"
+       },
+       "fat": {
+        "unit": "g",
+        "value_string": "54.73416",
+        "value": 54.73416,
+        "modifier": "~"
+       },
+       "energy-kj": {
+        "unit": "kJ",
+        "value_string": "2685.072",
+        "modifier": "~",
+        "value": 2685.072,
+        "value_computed": 2691.578136
+       },
+       "energy-kcal": {
+        "unit": "kcal",
+        "value_string": "650.6136",
+        "modifier": "~",
+        "value_computed": 650.200512,
+        "value": 650.6136
+       }
+      }
+     }
+    ]
+   },
+   "images": {
+    "selected": {
+     "front": {
+      "fr": {
+       "sizes": {
+        "100": {
+         "w": 65,
+         "h": 100
+        },
+        "full": {
+         "h": 3000,
+         "w": 1947
+        },
+        "200": {
+         "h": 200,
+         "w": 130
+        },
+        "400": {
+         "h": 400,
+         "w": 260
+        }
+       },
+       "generation": {},
+       "imgid": 145,
+       "rev": 720
+      },
+      "pt": {
+       "sizes": {
+        "200": {
+         "h": 200,
+         "w": 154
+        },
+        "400": {
+         "h": 400,
+         "w": 307
+        },
+        "100": {
+         "w": 77,
+         "h": 100
+        },
+        "full": {
+         "w": 2210,
+         "h": 2876
+        }
+       },
+       "generation": {
+        "x1": -1,
+        "coordinates_image_size": "full",
+        "y1": 52,
+        "x2": 2210,
+        "y2": 2928
+       },
+       "rev": "621",
+       "imgid": "132"
+      },
+      "es": {
+       "sizes": {
+        "200": {
+         "w": 153,
+         "h": 200
+        },
+        "400": {
+         "w": 307,
+         "h": 400
+        },
+        "100": {
+         "h": 100,
+         "w": 77
+        },
+        "full": {
+         "h": 2928,
+         "w": 2247
+        }
+       },
+       "generation": {},
+       "imgid": "132",
+       "rev": "611"
+      },
+      "en": {
+       "sizes": {
+        "400": {
+         "w": 270,
+         "h": 400
+        },
+        "200": {
+         "h": 200,
+         "w": 135
+        },
+        "full": {
+         "h": 3000,
+         "w": 2024
+        },
+        "100": {
+         "w": 67,
+         "h": 100
+        }
+       },
+       "rev": 722,
+       "imgid": 146,
+       "generation": {}
+      },
+      "it": {
+       "generation": {},
+       "imgid": "103",
+       "rev": "454",
+       "sizes": {
+        "full": {
+         "h": 4000,
+         "w": 3000
+        },
+        "100": {
+         "h": 100,
+         "w": 75
+        },
+        "400": {
+         "h": 400,
+         "w": 300
+        },
+        "200": {
+         "w": 150,
+         "h": 200
+        }
+       }
+      },
+      "hu": {
+       "sizes": {
+        "200": {
+         "w": 150,
+         "h": 200
+        },
+        "400": {
+         "w": 300,
+         "h": 400
+        },
+        "100": {
+         "w": 75,
+         "h": 100
+        },
+        "full": {
+         "h": 4032,
+         "w": 3024
+        }
+       },
+       "generation": {},
+       "imgid": "65",
+       "rev": "231"
+      },
+      "el": {
+       "rev": 726,
+       "imgid": 148,
+       "generation": {},
+       "sizes": {
+        "200": {
+         "h": 200,
+         "w": 144
+        },
+        "400": {
+         "h": 400,
+         "w": 287
+        },
+        "100": {
+         "h": 100,
+         "w": 72
+        },
+        "full": {
+         "w": 2094,
+         "h": 2918
+        }
+       }
+      },
+      "da": {
+       "sizes": {
+        "100": {
+         "h": 100,
+         "w": 75
+        },
+        "full": {
+         "h": 4032,
+         "w": 3024
+        },
+        "200": {
+         "w": 150,
+         "h": 200
+        },
+        "400": {
+         "w": 300,
+         "h": 400
+        }
+       },
+       "generation": {},
+       "rev": "274",
+       "imgid": "86"
+      },
+      "nl": {
+       "generation": {},
+       "rev": "82",
+       "imgid": "26",
+       "sizes": {
+        "400": {
+         "h": 400,
+         "w": 287
+        },
+        "200": {
+         "h": 200,
+         "w": 143
+        },
+        "full": {
+         "w": 1751,
+         "h": 2443
+        },
+        "100": {
+         "h": 100,
+         "w": 72
+        }
+       }
+      },
+      "de": {
+       "generation": {},
+       "rev": "516",
+       "imgid": "115",
+       "sizes": {
+        "full": {
+         "w": 143,
+         "h": 200
+        },
+        "100": {
+         "h": 100,
+         "w": 72
+        },
+        "400": {
+         "h": 200,
+         "w": 143
+        },
+        "200": {
+         "w": 143,
+         "h": 200
+        }
+       }
+      },
+      "bg": {
+       "generation": {},
+       "rev": "601",
+       "imgid": "129",
+       "sizes": {
+        "full": {
+         "h": 1280,
+         "w": 592
+        },
+        "100": {
+         "h": 100,
+         "w": 46
+        },
+        "400": {
+         "h": 400,
+         "w": 185
+        },
+        "200": {
+         "h": 200,
+         "w": 93
+        }
+       }
+      },
+      "hr": {
+       "sizes": {
+        "100": {
+         "w": 80,
+         "h": 100
+        },
+        "full": {
+         "w": 3000,
+         "h": 3741
+        },
+        "200": {
+         "h": 200,
+         "w": 160
+        },
+        "400": {
+         "w": 321,
+         "h": 400
+        }
+       },
+       "imgid": "119",
+       "rev": "547",
+       "generation": {}
+      },
+      "ro": {
+       "generation": {},
+       "imgid": "99",
+       "rev": "436",
+       "sizes": {
+        "100": {
+         "h": 100,
+         "w": 75
+        },
+        "full": {
+         "w": 3024,
+         "h": 4032
+        },
+        "200": {
+         "w": 150,
+         "h": 200
+        },
+        "400": {
+         "h": 400,
+         "w": 300
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "code": "20022464",
+   "lang": "en",
+   "lc": "en",
+   "product_name": "Extra Dark 74% Cocoa",
+   "product_name_de": "Noir intense 74%cacao",
+   "product_name_en": "Extra Dark 74% Cocoa",
+   "brands": "carré fin Lidl",
+   "quantity": "g",
+   "serving_quantity": 20,
+   "unique_scans_n": 588,
+   "countries_tags": [
+    "en:belgium",
+    "en:bulgaria",
+    "en:czech-republic",
+    "en:finland",
+    "en:germany",
+    "en:netherlands",
+    "en:poland",
+    "en:spain"
+   ],
+   "popularity_tags": [
+    "top-500-scans-2019",
+    "top-1000-scans-2019",
+    "top-5000-scans-2019",
+    "top-10000-scans-2019",
+    "top-50000-scans-2019",
+    "top-100000-scans-2019",
+    "at-least-5-scans-2019",
+    "at-least-10-scans-2019",
+    "top-75-percent-scans-2019",
+    "top-80-percent-scans-2019",
+    "top-85-percent-scans-2019",
+    "top-90-percent-scans-2019",
+    "top-500-fr-scans-2019",
+    "top-1000-fr-scans-2019",
+    "top-5000-fr-scans-2019",
+    "top-10000-fr-scans-2019",
+    "top-50000-fr-scans-2019",
+    "top-100000-fr-scans-2019",
+    "top-country-fr-scans-2019",
+    "at-least-5-fr-scans-2019",
+    "at-least-10-fr-scans-2019",
+    "top-1000-es-scans-2019",
+    "top-5000-es-scans-2019",
+    "top-10000-es-scans-2019",
+    "top-50000-es-scans-2019",
+    "top-100000-es-scans-2019",
+    "at-least-5-es-scans-2019",
+    "at-least-10-es-scans-2019",
+    "top-5000-be-scans-2019",
+    "top-10000-be-scans-2019",
+    "top-50000-be-scans-2019",
+    "top-100000-be-scans-2019",
+    "at-least-5-be-scans-2019",
+    "at-least-10-be-scans-2019",
+    "top-500-pt-scans-2019",
+    "top-1000-pt-scans-2019",
+    "top-5000-pt-scans-2019",
+    "top-10000-pt-scans-2019",
+    "top-50000-pt-scans-2019",
+    "top-100000-pt-scans-2019"
+   ],
+   "nutriments": {},
+   "nutrition": {
+    "aggregated_set": {
+     "preparation": "as_sold",
+     "per": "100g",
+     "nutrients": {
+      "proteins": {
+       "value": 9.9,
+       "source_per": "100g",
+       "source": "packaging",
+       "source_index": 0,
+       "unit": "g"
+      },
+      "fat": {
+       "source": "packaging",
+       "unit": "g",
+       "source_index": 0,
+       "value": 42,
+       "source_per": "100g"
+      },
+      "energy": {
+       "source_index": 0,
+       "source": "packaging",
+       "source_per": "100g",
+       "value_computed": 2367.1,
+       "unit": "kJ",
+       "value": 2367
+      },
+      "energy-kcal": {
+       "source_per": "100g",
+       "value_computed": 570.8,
+       "value": 571,
+       "unit": "kcal",
+       "source_index": 0,
+       "source": "packaging"
+      },
+      "energy-kj": {
+       "source_per": "100g",
+       "value_computed": 2367.1,
+       "value": 2367,
+       "source_index": 0,
+       "unit": "kJ",
+       "source": "packaging"
+      },
+      "carbohydrates": {
+       "unit": "g",
+       "source_index": 0,
+       "source": "packaging",
+       "source_per": "100g",
+       "value": 32
+      }
+     }
+    },
+    "input_sets": [
+     {
+      "source": "packaging",
+      "per_quantity": 100,
+      "preparation": "as_sold",
+      "per_unit": "g",
+      "per": "100g",
+      "last_updated_t": 1772280262,
+      "nutrients": {
+       "energy-kcal": {
+        "value_string": "571",
+        "value_computed": 570.8,
+        "value": 571,
+        "unit": "kcal"
+       },
+       "energy-kj": {
+        "value": 2367,
+        "value_computed": 2367.1,
+        "value_string": "2367",
+        "unit": "kJ"
+       },
+       "carbohydrates": {
+        "unit": "g",
+        "value": 32,
+        "value_string": "32"
+       },
+       "fat": {
+        "value_string": "42",
+        "value": 42,
+        "unit": "g"
+       },
+       "proteins": {
+        "unit": "g",
+        "value": 9.9,
+        "value_string": "9.9"
+       }
+      }
+     },
+     {
+      "per": "serving",
+      "per_unit": "g",
+      "preparation": "as_sold",
+      "per_quantity": 20,
+      "source": "packaging",
+      "nutrients": {
+       "proteins": {
+        "unit": "g",
+        "value_string": "2",
+        "value": 2
+       },
+       "fat": {
+        "unit": "g",
+        "value_string": "8.4",
+        "value": 8.4
+       },
+       "energy-kj": {
+        "value_computed": 473.6,
+        "unit": "kJ"
+       },
+       "carbohydrates": {
+        "unit": "g",
+        "value": 6.4,
+        "value_string": "6.4"
+       },
+       "energy-kcal": {
+        "unit": "kcal",
+        "value_string": "114",
+        "value_computed": 114.2,
+        "value": 114
+       }
+      }
+     },
+     {
+      "per_quantity": 100,
+      "per_unit": "g",
+      "preparation": "as_sold",
+      "source_description": "Estimate from ingredients",
+      "source": "estimate",
+      "per": "100g",
+      "nutrients": {}
+     }
+    ]
+   },
+   "images": {
+    "selected": {
+     "front": {
+      "en": {
+       "sizes": {
+        "full": {
+         "h": 4080,
+         "w": 2140
+        },
+        "100": {
+         "w": 52,
+         "h": 100
+        },
+        "400": {
+         "w": 210,
+         "h": 400
+        },
+        "200": {
+         "w": 105,
+         "h": 200
+        }
+       },
+       "generation": {},
+       "rev": 324,
+       "imgid": 109
+      },
+      "de": {
+       "sizes": {
+        "full": {
+         "w": 536,
+         "h": 1200
+        },
+        "100": {
+         "w": 45,
+         "h": 100
+        },
+        "400": {
+         "w": 179,
+         "h": 400
+        },
+        "200": {
+         "w": 89,
+         "h": 200
+        }
+       },
+       "rev": "152",
+       "imgid": "41",
+       "generation": {}
+      },
+      "bg": {
+       "generation": {
+        "x1": 0,
+        "coordinates_image_size": "full",
+        "y1": 0,
+        "x2": 2176,
+        "y2": 4025
+       },
+       "rev": "265",
+       "imgid": "92",
+       "sizes": {
+        "200": {
+         "h": 200,
+         "w": 108
+        },
+        "400": {
+         "w": 216,
+         "h": 400
+        },
+        "100": {
+         "h": 100,
+         "w": 54
+        },
+        "full": {
+         "h": 4025,
+         "w": 2176
+        }
+       }
+      },
+      "pl": {
+       "sizes": {
+        "200": {
+         "h": 200,
+         "w": 89
+        },
+        "400": {
+         "h": 400,
+         "w": 177
+        },
+        "100": {
+         "h": 100,
+         "w": 44
+        },
+        "full": {
+         "w": 1782,
+         "h": 4020
+        }
+       },
+       "generation": {},
+       "imgid": "108",
+       "rev": "314"
+      },
+      "fr": {
+       "sizes": {
+        "200": {
+         "h": 200,
+         "w": 108
+        },
+        "400": {
+         "h": 400,
+         "w": 216
+        },
+        "100": {
+         "h": 100,
+         "w": 54
+        },
+        "full": {
+         "w": 2176,
+         "h": 4025
+        }
+       },
+       "rev": "237",
+       "imgid": "92",
+       "generation": {}
+      },
+      "es": {
+       "sizes": {
+        "200": {
+         "w": 90,
+         "h": 200
+        },
+        "400": {
+         "w": 180,
+         "h": 400
+        },
+        "100": {
+         "h": 100,
+         "w": 45
+        },
+        "full": {
+         "w": 1695,
+         "h": 3774
+        }
+       },
+       "imgid": "91",
+       "rev": "274",
+       "generation": {}
+      },
+      "pt": {
+       "sizes": {
+        "100": {
+         "w": 44,
+         "h": 100
+        },
+        "full": {
+         "w": 1744,
+         "h": 3972
+        },
+        "200": {
+         "w": 88,
+         "h": 200
+        },
+        "400": {
+         "h": 400,
+         "w": 176
+        }
+       },
+       "imgid": "75",
+       "rev": "185",
+       "generation": {}
+      }
+     }
+    }
+   }
+  },
+  {
+   "code": "20047238",
+   "lang": "de",
+   "lc": "de",
+   "product_name": "Nussmix",
+   "product_name_de": "Nussmix",
+   "product_name_en": "Mixed Nuts",
+   "brands": "Alesto",
+   "quantity": "200g",
+   "serving_quantity": 30,
+   "unique_scans_n": 550,
+   "countries_tags": [
+    "en:belgium",
+    "en:bulgaria",
+    "en:croatia",
+    "en:czech-republic",
+    "en:france",
+    "en:germany",
+    "en:hungary",
+    "en:italy",
+    "en:poland",
+    "en:romania",
+    "en:serbia",
+    "en:spain",
+    "en:sweden",
+    "en:switzerland",
+    "en:united-kingdom"
+   ],
+   "popularity_tags": [
+    "top-500-scans-2019",
+    "top-1000-scans-2019",
+    "top-5000-scans-2019",
+    "top-10000-scans-2019",
+    "top-50000-scans-2019",
+    "top-100000-scans-2019",
+    "at-least-5-scans-2019",
+    "at-least-10-scans-2019",
+    "top-75-percent-scans-2019",
+    "top-80-percent-scans-2019",
+    "top-85-percent-scans-2019",
+    "top-90-percent-scans-2019",
+    "top-500-fr-scans-2019",
+    "top-1000-fr-scans-2019",
+    "top-5000-fr-scans-2019",
+    "top-10000-fr-scans-2019",
+    "top-50000-fr-scans-2019",
+    "top-100000-fr-scans-2019",
+    "top-country-fr-scans-2019",
+    "at-least-5-fr-scans-2019",
+    "at-least-10-fr-scans-2019",
+    "top-100-de-scans-2019",
+    "top-500-de-scans-2019",
+    "top-1000-de-scans-2019",
+    "top-5000-de-scans-2019",
+    "top-10000-de-scans-2019",
+    "top-50000-de-scans-2019",
+    "top-100000-de-scans-2019",
+    "at-least-5-de-scans-2019",
+    "at-least-10-de-scans-2019",
+    "top-500-ch-scans-2019",
+    "top-1000-ch-scans-2019",
+    "top-5000-ch-scans-2019",
+    "top-10000-ch-scans-2019",
+    "top-50000-ch-scans-2019",
+    "top-100000-ch-scans-2019",
+    "at-least-5-ch-scans-2019",
+    "at-least-10-ch-scans-2019",
+    "top-500-es-scans-2019",
+    "top-1000-es-scans-2019"
+   ],
+   "nutriments": {},
+   "nutrition": {
+    "aggregated_set": {
+     "preparation": "as_sold",
+     "per": "100g",
+     "nutrients": {
+      "energy-kcal": {
+       "source_per": "100g",
+       "value_computed": 646.2,
+       "value": 646,
+       "unit": "kcal",
+       "source_index": 0,
+       "source": "packaging"
+      },
+      "fat": {
+       "source_index": 0,
+       "unit": "g",
+       "source": "packaging",
+       "source_per": "100g",
+       "value": 58
+      },
+      "energy-kj": {
+       "source": "packaging",
+       "source_index": 0,
+       "unit": "kJ",
+       "modifier": "~",
+       "value": 2669.6,
+       "source_per": "100g"
+      },
+      "proteins": {
+       "source": "packaging",
+       "unit": "g",
+       "source_index": 0,
+       "value": 20.4,
+       "source_per": "100g"
+      },
+      "energy": {
+       "source_per": "100g",
+       "modifier": "~",
+       "value": 2669.6,
+       "source_index": 0,
+       "unit": "kJ",
+       "source": "packaging"
+      },
+      "carbohydrates": {
+       "source_per": "100g",
+       "value": 6.4,
+       "unit": "g",
+       "source_index": 0,
+       "source": "packaging"
+      }
+     }
+    },
+    "input_sets": [
+     {
+      "last_updated_t": 1771605007,
+      "source": "packaging",
+      "per": "100g",
+      "per_unit": "g",
+      "preparation": "as_sold",
+      "per_quantity": 100,
+      "nutrients": {
+       "fat": {
+        "value": 58,
+        "value_string": "58",
+        "unit": "g"
+       },
+       "proteins": {
+        "unit": "g",
+        "value": 20.4,
+        "value_string": "20.4"
+       },
+       "energy-kcal": {
+        "value_computed": 646.2,
+        "value": 646,
+        "value_string": "646",
+        "unit": "kcal"
+       },
+       "carbohydrates": {
+        "value": 6.4,
+        "value_string": "6.4",
+        "unit": "g"
+       },
+       "energy-kj": {
+        "value_computed": 2669.6,
+        "unit": "kJ"
+       }
+      }
+     },
+     {
+      "source": "packaging",
+      "per": "serving",
+      "per_quantity": 30,
+      "preparation": "as_sold",
+      "per_unit": "g",
+      "nutrients": {
+       "carbohydrates": {
+        "value_string": "4.5",
+        "value": 4.5,
+        "unit": "g"
+       },
+       "energy-kj": {
+        "unit": "kJ",
+        "value_computed": 842.0
+       },
+       "energy-kcal": {
+        "unit": "kcal",
+        "value": 195,
+        "value_computed": 203.5,
+        "value_string": "195"
+       },
+       "proteins": {
+        "unit": "g",
+        "value": 6,
+        "value_string": "6"
+       },
+       "fat": {
+        "value": 17.5,
+        "value_string": "17.5",
+        "unit": "g"
+       }
+      }
+     },
+     {
+      "source": "estimate",
+      "source_description": "Estimate from ingredients",
+      "per": "100g",
+      "per_quantity": 100,
+      "per_unit": "g",
+      "preparation": "as_sold",
+      "nutrients": {
+       "carbohydrates": {
+        "value_string": "11.8065",
+        "modifier": "~",
+        "value": 11.8065,
+        "unit": "g"
+       },
+       "proteins": {
+        "unit": "g",
+        "value_string": "16.9575",
+        "modifier": "~",
+        "value": 16.9575
+       },
+       "energy": {
+        "unit": "kJ",
+        "value_string": "2034.9",
+        "modifier": "~",
+        "value": 2034.9
+       },
+       "energy-kj": {
+        "value": 2034.9,
+        "value_computed": 2687.6235,
+        "modifier": "~",
+        "value_string": "2034.9",
+        "unit": "kJ"
+       },
+       "fat": {
+        "unit": "g",
+        "modifier": "~",
+        "value": 57.5535,
+        "value_string": "57.5535"
+       },
+       "energy-kcal": {
+        "value_computed": 650.3265,
+        "value": 493.425,
+        "modifier": "~",
+        "value_string": "493.425",
+        "unit": "kcal"
+       }
+      }
+     }
+    ]
+   },
+   "images": {
+    "selected": {
+     "front": {
+      "pl": {
+       "generation": {},
+       "rev": "250",
+       "imgid": "68",
+       "sizes": {
+        "full": {
+         "h": 3626,
+         "w": 2578
+        },
+        "100": {
+         "w": 71,
+         "h": 100
+        },
+        "400": {
+         "h": 400,
+         "w": 284
+        },
+        "200": {
+         "w": 142,
+         "h": 200
+        }
+       }
+      },
+      "fr": {
+       "sizes": {
+        "400": {
+         "h": 400,
+         "w": 300
+        },
+        "200": {
+         "w": 150,
+         "h": 200
+        },
+        "full": {
+         "h": 4000,
+         "w": 3000
+        },
+        "100": {
+         "w": 75,
+         "h": 100
+        }
+       },
+       "rev": 575,
+       "imgid": 129,
+       "generation": {}
+      },
+      "es": {
+       "generation": {},
+       "imgid": "97",
+       "rev": "351",
+       "sizes": {
+        "full": {
+         "w": 1578,
+         "h": 2340
+        },
+        "100": {
+         "h": 100,
+         "w": 67
+        },
+        "400": {
+         "h": 400,
+         "w": 270
+        },
+        "200": {
+         "w": 135,
+         "h": 200
+        }
+       }
+      },
+      "en": {
+       "generation": {},
+       "rev": 669,
+       "imgid": 147,
+       "sizes": {
+        "100": {
+         "w": 56,
+         "h": 100
+        },
+        "full": {
+         "h": 1918,
+         "w": 1080
+        },
+        "200": {
+         "h": 200,
+         "w": 113
+        },
+        "400": {
+         "w": 225,
+         "h": 400
+        }
+       }
+      },
+      "it": {
+       "sizes": {
+        "full": {
+         "w": 3000,
+         "h": 4000
+        },
+        "100": {
+         "h": 100,
+         "w": 75
+        },
+        "400": {
+         "w": 300,
+         "h": 400
+        },
+        "200": {
+         "w": 150,
+         "h": 200
+        }
+       },
+       "generation": {},
+       "imgid": "79",
+       "rev": "287"
+      },
+      "hu": {
+       "sizes": {
+        "200": {
+         "h": 200,
+         "w": 150
+        },
+        "400": {
+         "w": 300,
+         "h": 400
+        },
+        "100": {
+         "h": 100,
+         "w": 75
+        },
+        "full": {
+         "h": 1698,
+         "w": 1275
+        }
+       },
+       "imgid": "119",
+       "rev": "535",
+       "generation": {
+        "y2": 1698,
+        "x2": 1275,
+        "y1": -1,
+        "coordinates_image_size": "full",
+        "x1": -1
+       }
+      },
+      "sv": {
+       "generation": {},
+       "imgid": "119",
+       "rev": "489",
+       "sizes": {
+        "full": {
+         "h": 1698,
+         "w": 1275
+        },
+        "100": {
+         "h": 100,
+         "w": 75
+        },
+        "400": {
+         "w": 300,
+         "h": 400
+        },
+        "200": {
+         "h": 200,
+         "w": 150
+        }
+       }
+      },
+      "nl": {
+       "generation": {},
+       "imgid": "103",
+       "rev": "402",
+       "sizes": {
+        "400": {
+         "w": 263,
+         "h": 400
+        },
+        "200": {
+         "h": 200,
+         "w": 132
+        },
+        "full": {
+         "w": 2653,
+         "h": 4032
+        },
+        "100": {
+         "w": 66,
+         "h": 100
+        }
+       }
+      },
+      "de": {
+       "imgid": 139,
+       "rev": 633,
+       "generation": {},
+       "sizes": {
+        "400": {
+         "h": 400,
+         "w": 250
+        },
+        "200": {
+         "h": 200,
+         "w": 125
+        },
+        "full": {
+         "w": 1551,
+         "h": 2477
+        },
+        "100": {
+         "w": 63,
+         "h": 100
+        }
+       }
+      },
+      "bg": {
+       "sizes": {
+        "100": {
+         "h": 100,
+         "w": 63
+        },
+        "full": {
+         "w": 1551,
+         "h": 2477
+        },
+        "200": {
+         "h": 200,
+         "w": 125
+        },
+        "400": {
+         "w": 250,
+         "h": 400
+        }
+       },
+       "generation": {},
+       "rev": 613,
+       "imgid": 139
+      },
+      "hr": {
+       "generation": {
+        "x2": 790,
+        "y2": 1108,
+        "coordinates_image_size": "full",
+        "x1": 0,
+        "y1": 0
+       },
+       "imgid": "108",
+       "rev": "432",
+       "sizes": {
+        "200": {
+         "w": 143,
+         "h": 200
+        },
+        "400": {
+         "w": 285,
+         "h": 400
+        },
+        "100": {
+         "h": 100,
+         "w": 71
+        },
+        "full": {
+         "h": 1108,
+         "w": 790
+        }
+       }
+      },
+      "ro": {
+       "sizes": {
+        "400": {
+         "w": 300,
+         "h": 400
+        },
+        "200": {
+         "w": 150,
+         "h": 200
+        },
+        "full": {
+         "w": 600,
+         "h": 800
+        },
+        "100": {
+         "w": 75,
+         "h": 100
+        }
+       },
+       "rev": "482",
+       "imgid": "118",
+       "generation": {}
+      }
+     }
+    }
+   }
+  },
+  {
+   "code": "20267605",
+   "lang": "en",
+   "lc": "en",
+   "product_name": "Cashews",
+   "product_name_de": "Cashewkerne naturbelassen",
+   "product_name_en": "Cashews",
+   "brands": "Alesto",
+   "quantity": "200 g",
+   "serving_quantity": 30,
+   "unique_scans_n": 455,
+   "countries_tags": [
+    "en:austria",
+    "en:belgium",
+    "en:croatia",
+    "en:france",
+    "en:germany",
+    "en:hungary",
+    "en:italy",
+    "en:poland",
+    "en:spain",
+    "en:sweden",
+    "en:switzerland",
+    "en:united-kingdom"
+   ],
+   "popularity_tags": [
+    "top-500-scans-2019",
+    "top-1000-scans-2019",
+    "top-5000-scans-2019",
+    "top-10000-scans-2019",
+    "top-50000-scans-2019",
+    "top-100000-scans-2019",
+    "at-least-5-scans-2019",
+    "at-least-10-scans-2019",
+    "top-75-percent-scans-2019",
+    "top-80-percent-scans-2019",
+    "top-85-percent-scans-2019",
+    "top-90-percent-scans-2019",
+    "top-500-fr-scans-2019",
+    "top-1000-fr-scans-2019",
+    "top-5000-fr-scans-2019",
+    "top-10000-fr-scans-2019",
+    "top-50000-fr-scans-2019",
+    "top-100000-fr-scans-2019",
+    "top-country-fr-scans-2019",
+    "at-least-5-fr-scans-2019",
+    "at-least-10-fr-scans-2019",
+    "top-500-de-scans-2019",
+    "top-1000-de-scans-2019",
+    "top-5000-de-scans-2019",
+    "top-10000-de-scans-2019",
+    "top-50000-de-scans-2019",
+    "top-100000-de-scans-2019",
+    "at-least-5-de-scans-2019",
+    "at-least-10-de-scans-2019",
+    "top-500-es-scans-2019",
+    "top-1000-es-scans-2019",
+    "top-5000-es-scans-2019",
+    "top-10000-es-scans-2019",
+    "top-50000-es-scans-2019",
+    "top-100000-es-scans-2019",
+    "at-least-5-es-scans-2019",
+    "at-least-10-es-scans-2019",
+    "top-500-ch-scans-2019",
+    "top-1000-ch-scans-2019",
+    "top-5000-ch-scans-2019"
+   ],
+   "nutriments": {},
+   "nutrition": {
+    "aggregated_set": {
+     "preparation": "as_sold",
+     "per": "100g",
+     "nutrients": {
+      "carbohydrates": {
+       "unit": "g",
+       "source_index": 0,
+       "source": "packaging",
+       "source_per": "100g",
+       "value": 19.8
+      },
+      "energy": {
+       "modifier": "~",
+       "value": 2487.9,
+       "source_per": "100g",
+       "source": "packaging",
+       "source_index": 0,
+       "unit": "kJ"
+      },
+      "proteins": {
+       "unit": "g",
+       "source_index": 0,
+       "source": "packaging",
+       "source_per": "100g",
+       "value": 20.5
+      },
+      "fat": {
+       "source_per": "100g",
+       "value": 47.6,
+       "source_index": 0,
+       "unit": "g",
+       "source": "packaging"
+      },
+      "energy-kj": {
+       "value": 2487.9,
+       "modifier": "~",
+       "source_per": "100g",
+       "source": "packaging",
+       "unit": "kJ",
+       "source_index": 0
+      },
+      "energy-kcal": {
+       "source_index": 0,
+       "unit": "kcal",
+       "source": "packaging",
+       "source_per": "100g",
+       "value": 600,
+       "value_computed": 600
+      }
+     }
+    },
+    "input_sets": [
+     {
+      "last_updated_t": 1771562072,
+      "per": "100g",
+      "per_unit": "g",
+      "preparation": "as_sold",
+      "per_quantity": 100,
+      "source": "packaging",
+      "nutrients": {
+       "energy-kj": {
+        "value_computed": 2487.9,
+        "unit": "kJ"
+       },
+       "carbohydrates": {
+        "value": 19.8,
+        "value_string": "19.8",
+        "unit": "g"
+       },
+       "energy-kcal": {
+        "value_string": "600",
+        "value_computed": 600,
+        "value": 600,
+        "unit": "kcal"
+       },
+       "fat": {
+        "unit": "g",
+        "value": 47.6,
+        "value_string": "47.6"
+       },
+       "proteins": {
+        "value_string": "20.5",
+        "value": 20.5,
+        "unit": "g"
+       }
+      }
+     },
+     {
+      "per": "serving",
+      "per_quantity": 30,
+      "preparation": "as_sold",
+      "per_unit": "g",
+      "source": "packaging",
+      "nutrients": {
+       "proteins": {
+        "value": 20.5,
+        "value_string": "20.5",
+        "unit": "g"
+       },
+       "fat": {
+        "value": 47.6,
+        "value_string": "47.6",
+        "unit": "g"
+       },
+       "energy-kcal": {
+        "value_string": "600",
+        "value_computed": 600,
+        "value": 600,
+        "unit": "kcal"
+       },
+       "energy-kj": {
+        "value_computed": 2487.9,
+        "unit": "kJ"
+       },
+       "carbohydrates": {
+        "value": 19.8,
+        "value_string": "19.8",
+        "unit": "g"
+       }
+      }
+     },
+     {
+      "source": "estimate",
+      "source_description": "Estimate from ingredients",
+      "per": "100g",
+      "per_quantity": 100,
+      "preparation": "as_sold",
+      "per_unit": "g",
+      "nutrients": {
+       "energy-kj": {
+        "unit": "kJ",
+        "value_computed": 2553.9
+       },
+       "fat": {
+        "unit": "g",
+        "modifier": "~",
+        "value": 49,
+        "value_string": "49"
+       },
+       "energy-kcal": {
+        "value_computed": 616,
+        "unit": "kcal"
+       },
+       "carbohydrates": {
+        "unit": "g",
+        "value_string": "23.5",
+        "value": 23.5,
+        "modifier": "~"
+       },
+       "proteins": {
+        "unit": "g",
+        "value_string": "17.4",
+        "value": 17.4,
+        "modifier": "~"
+       },
+       "energy": {
+        "value": 617,
+        "modifier": "~",
+        "value_string": "617",
+        "unit": "kJ"
+       }
+      }
+     }
+    ]
+   },
+   "images": {
+    "selected": {
+     "front": {
+      "da": {
+       "sizes": {
+        "100": {
+         "w": 67,
+         "h": 100
+        },
+        "full": {
+         "w": 813,
+         "h": 1221
+        },
+        "200": {
+         "w": 133,
+         "h": 200
+        },
+        "400": {
+         "h": 400,
+         "w": 266
+        }
+       },
+       "rev": "386",
+       "imgid": "98",
+       "generation": {}
+      },
+      "sk": {
+       "sizes": {
+        "200": {
+         "w": 124,
+         "h": 200
+        },
+        "400": {
+         "w": 249,
+         "h": 400
+        },
+        "100": {
+         "w": 62,
+         "h": 100
+        },
+        "full": {
+         "w": 2201,
+         "h": 3536
+        }
+       },
+       "rev": "491",
+       "imgid": "115",
+       "generation": {
+        "y2": 3536,
+        "x2": 2201,
+        "y1": -1,
+        "coordinates_image_size": "full",
+        "x1": -1
+       }
+      },
+      "de": {
+       "sizes": {
+        "full": {
+         "w": 1500,
+         "h": 2000
+        },
+        "100": {
+         "h": 100,
+         "w": 75
+        },
+        "400": {
+         "h": 400,
+         "w": 300
+        },
+        "200": {
+         "w": 150,
+         "h": 200
+        }
+       },
+       "imgid": 130,
+       "rev": 599,
+       "generation": {}
+      },
+      "hr": {
+       "generation": {
+        "y1": -1,
+        "x1": -1,
+        "coordinates_image_size": "full",
+        "y2": 3808,
+        "x2": 2606
+       },
+       "rev": 606,
+       "imgid": "131",
+       "sizes": {
+        "100": {
+         "h": 100,
+         "w": 68
+        },
+        "full": {
+         "w": 2606,
+         "h": 3808
+        },
+        "200": {
+         "h": 200,
+         "w": 137
+        },
+        "400": {
+         "w": 274,
+         "h": 400
+        }
+       }
+      },
+      "ro": {
+       "sizes": {
+        "400": {
+         "w": 300,
+         "h": 400
+        },
+        "200": {
+         "h": 200,
+         "w": 150
+        },
+        "full": {
+         "h": 4032,
+         "w": 3024
+        },
+        "100": {
+         "h": 100,
+         "w": 75
+        }
+       },
+       "generation": {},
+       "imgid": "71",
+       "rev": "265"
+      },
+      "sl": {
+       "rev": "489",
+       "imgid": "115",
+       "generation": {},
+       "sizes": {
+        "full": {
+         "w": 2201,
+         "h": 3536
+        },
+        "100": {
+         "h": 100,
+         "w": 62
+        },
+        "400": {
+         "w": 249,
+         "h": 400
+        },
+        "200": {
+         "h": 200,
+         "w": 124
+        }
+       }
+      },
+      "pl": {
+       "sizes": {
+        "200": {
+         "h": 200,
+         "w": 135
+        },
+        "400": {
+         "h": 400,
+         "w": 269
+        },
+        "100": {
+         "h": 100,
+         "w": 67
+        },
+        "full": {
+         "h": 3942,
+         "w": 2653
+        }
+       },
+       "generation": {},
+       "rev": 547,
+       "imgid": "120"
+      },
+      "fr": {
+       "sizes": {
+        "100": {
+         "h": 100,
+         "w": 62
+        },
+        "full": {
+         "h": 3536,
+         "w": 2201
+        },
+        "200": {
+         "w": 124,
+         "h": 200
+        },
+        "400": {
+         "h": 400,
+         "w": 249
+        }
+       },
+       "generation": {
+        "y1": -1,
+        "coordinates_image_size": "full",
+        "x1": -1,
+        "y2": 3536,
+        "x2": 2201
+       },
+       "imgid": "115",
+       "rev": "514"
+      },
+      "es": {
+       "rev": "511",
+       "imgid": "115",
+       "generation": {
+        "coordinates_image_size": "full",
+        "x1": -1,
+        "y1": -1,
+        "x2": 2201,
+        "y2": 3536
+       },
+       "sizes": {
+        "full": {
+         "h": 3536,
+         "w": 2201
+        },
+        "100": {
+         "w": 62,
+         "h": 100
+        },
+        "400": {
+         "h": 400,
+         "w": 249
+        },
+        "200": {
+         "h": 200,
+         "w": 124
+        }
+       }
+      },
+      "fi": {
+       "sizes": {
+        "200": {
+         "h": 200,
+         "w": 135
+        },
+        "400": {
+         "h": 400,
+         "w": 270
+        },
+        "100": {
+         "w": 67,
+         "h": 100
+        },
+        "full": {
+         "w": 1968,
+         "h": 2918
+        }
+       },
+       "generation": {},
+       "imgid": 124,
+       "rev": 564
+      },
+      "en": {
+       "sizes": {
+        "400": {
+         "w": 270,
+         "h": 400
+        },
+        "200": {
+         "h": 200,
+         "w": 135
+        },
+        "full": {
+         "h": 2918,
+         "w": 1968
+        },
+        "100": {
+         "w": 67,
+         "h": 100
+        }
+       },
+       "rev": 596,
+       "imgid": 124,
+       "generation": {}
+      },
+      "it": {
+       "sizes": {
+        "full": {
+         "w": 2201,
+         "h": 3536
+        },
+        "100": {
+         "w": 62,
+         "h": 100
+        },
+        "400": {
+         "w": 249,
+         "h": 400
+        },
+        "200": {
+         "w": 124,
+         "h": 200
+        }
+       },
+       "generation": {
+        "x1": -1,
+        "coordinates_image_size": "full",
+        "y1": -1,
+        "x2": 2201,
+        "y2": 3536
+       },
+       "rev": "517",
+       "imgid": "115"
+      },
+      "hu": {
+       "generation": {
+        "x2": 2201,
+        "y2": 3536,
+        "x1": -1,
+        "coordinates_image_size": "full",
+        "y1": -1
+       },
+       "rev": "500",
+       "imgid": "115",
+       "sizes": {
+        "200": {
+         "w": 124,
+         "h": 200
+        },
+        "400": {
+         "w": 249,
+         "h": 400
+        },
+        "100": {
+         "h": 100,
+         "w": 62
+        },
+        "full": {
+         "h": 3536,
+         "w": 2201
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ ]
+}
