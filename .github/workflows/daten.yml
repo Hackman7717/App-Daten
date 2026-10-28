@@ -1,0 +1,78 @@
+name: Deutsche Produkte
+
+# Holt jede Woche den Export von Open Food Facts, filtert die deutschen Produkte mit Nährwerten
+# und veröffentlicht sie im Zweig gh-pages (immer nur der neueste Stand plus die vorige Datei).
+on:
+  schedule:
+    - cron: '23 2 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'site/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daten
+  cancel-in-progress: false
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Export von Open Food Facts laden
+        run: |
+          curl -fsSL --retry 5 --retry-delay 60 --retry-all-errors \
+            -A "Trainingsbuch-Daten/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
+            -o products.csv.gz https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz
+          ls -l products.csv.gz
+
+      - name: Deutsche Produkte filtern
+        run: |
+          set -o pipefail
+          mkdir -p out
+          gunzip -c products.csv.gz | python3 scripts/build_de.py out
+          rm products.csv.gz
+
+      - name: Vorige Datei behalten
+        run: |
+          if git fetch -q --depth 1 origin gh-pages 2>/dev/null; then
+            prev=$(git show FETCH_HEAD:manifest.json 2>/dev/null | python3 -c 'import json,sys;print(json.load(sys.stdin)["file"])' 2>/dev/null || true)
+            new=$(python3 -c 'import json;print(json.load(open("out/manifest.json"))["file"])')
+            if [ -n "$prev" ] && [ "$prev" != "$new" ]; then git show "FETCH_HEAD:$prev" > "out/$prev" || rm -f "out/$prev"; fi
+          fi
+          ls -l out
+
+      - name: Veröffentlichen
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          cp -r site/. out/
+          cd out
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Daten $(date -u +%F)"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+
+      - name: Online prüfen
+        run: python3 scripts/check_live.py out/manifest.json out/live.json
+
+      - name: Bericht ablegen
+        run: |
+          mkdir -p report
+          cp out/report.md out/report.json out/live.json out/manifest.json report/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add report
+          git commit -q -m "Bericht $(date -u +%F)" || echo "Bericht unverändert"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
