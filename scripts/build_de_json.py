@@ -165,7 +165,9 @@ def main():
         btags = [str(t) for t in (d.get('brands_tags') or []) if t]
         best, least, topc = de_pop(d.get('popularity_tags'))
         score = rank_score(best, least, topc, d.get('lang') == 'de', name_de, num(d.get('unique_scans_n')) or 0)
-        C.add(str(d.get('code') or ''), name, brand, btags, qty, unit or unit_from_qty(qty), k, mac, num(d.get('serving_quantity')),
+        # Getränke in ml, auch wenn Open Food Facts die Werte pro 100 g führt (Milch steht oft so drin)
+        unit = 'ml' if unit == 'ml' or unit_from_qty(qty) == 'ml' else 'g'
+        C.add(str(d.get('code') or ''), name, brand, btags, qty, unit, k, mac, num(d.get('serving_quantity')),
               front_img(d), score)
     C.write(out)
 
