@@ -3,7 +3,7 @@
 - Produkte in der Datei: **239724** (6.9 MB gepackt, 19.1 MB entpackt)
 - Zeilen im Export: 4879512, davon Deutschland: 434668
 - Aussortiert: ohne Kalorien 173566, ohne Name 20331, ohne Barcode 821, unplausibel 226
-- Markenspalte: brands, Laufzeit 44 s
+- Markenspalte: brands, Laufzeit 57 s
 
 ## Handelsmarken (eigene Zuordnung, 47946 Produkte)
 
