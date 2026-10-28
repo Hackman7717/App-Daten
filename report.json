@@ -1,0 +1,1009 @@
+{
+ "stand": "2026-10-28",
+ "quelle": "JSONL-Export (openfoodfacts-products.jsonl.gz)",
+ "datei": "de-20261028-680ab13f.tsv.gz",
+ "mb": 7.3,
+ "mb_entpackt": 19.3,
+ "zaehler": {
+  "gelesen": 439649,
+  "deutschland": 434590,
+  "name_de": 358757,
+  "werte_as_sold": 244213,
+  "behalten": 242922,
+  "name_andere": 62475,
+  "ohne_kalorien": 177439,
+  "ohne_name": 13191,
+  "kalorien_unplausibel": 171,
+  "werte_wie_verkauft": 867,
+  "handelsmarke": 52392,
+  "werte_prepared": 221,
+  "naehrwerte_unplausibel": 46,
+  "ohne_code": 821,
+  "werte_alt": 83,
+  "veraltet": 83
+ },
+ "sekunden": 313,
+ "top_marken": [
+  [
+   "ALDI",
+   4611
+  ],
+  [
+   "Lidl",
+   4072
+  ],
+  [
+   "REWE",
+   3990
+  ],
+  [
+   "EDEKA",
+   3758
+  ],
+  [
+   "K-Classic",
+   3278
+  ],
+  [
+   "dmBio",
+   3044
+  ],
+  [
+   "PENNY",
+   2596
+  ],
+  [
+   "ja!",
+   2550
+  ],
+  [
+   "Kaufland",
+   2271
+  ],
+  [
+   "Gut & Günstig",
+   2162
+  ],
+  [
+   "REWE Beste Wahl",
+   1896
+  ],
+  [
+   "Alnatura",
+   1763
+  ],
+  [
+   "Milbona",
+   1410
+  ],
+  [
+   "Migros",
+   1294
+  ],
+  [
+   "Coop",
+   1229
+  ],
+  [
+   "REWE Bio",
+   1228
+  ],
+  [
+   "Knorr",
+   1088
+  ],
+  [
+   "Dr. Oetker",
+   971
+  ],
+  [
+   "Lindt",
+   951
+  ],
+  [
+   "Nestlé",
+   865
+  ],
+  [
+   "Spar",
+   832
+  ],
+  [
+   "Dennree",
+   810
+  ],
+  [
+   "Maggi",
+   772
+  ],
+  [
+   "Chef Select",
+   764
+  ],
+  [
+   "Jeden Tag",
+   740
+  ],
+  [
+   "Biobio",
+   732
+  ],
+  [
+   "Alnatura gmbh",
+   695
+  ],
+  [
+   "Milsani",
+   684
+  ],
+  [
+   "dm",
+   673
+  ],
+  [
+   "Ja!",
+   670
+  ],
+  [
+   "Koro",
+   666
+  ],
+  [
+   "Haribo",
+   656
+  ],
+  [
+   "Dulano",
+   635
+  ],
+  [
+   "Esn",
+   576
+  ],
+  [
+   "Rossmann",
+   576
+  ],
+  [
+   "EDEKA Bio",
+   571
+  ],
+  [
+   "Gutes Land",
+   550
+  ],
+  [
+   "Netto",
+   538
+  ],
+  [
+   "tegut",
+   537
+  ],
+  [
+   "Globus",
+   536
+  ],
+  [
+   "enerBiO",
+   531
+  ],
+  [
+   "Rapunzel",
+   527
+  ],
+  [
+   "Gut & günstig",
+   522
+  ],
+  [
+   "Deluxe",
+   519
+  ],
+  [
+   "Gut Bio",
+   516
+  ],
+  [
+   "Bio",
+   493
+  ],
+  [
+   "Gourmet Finest Cuisine",
+   454
+  ],
+  [
+   "Iglo",
+   443
+  ],
+  [
+   "Kania",
+   441
+  ],
+  [
+   "Asia Green Garden",
+   430
+  ],
+  [
+   "Freshona",
+   428
+  ],
+  [
+   "K-Bio",
+   424
+  ],
+  [
+   "Vemondo",
+   423
+  ],
+  [
+   "Milka",
+   417
+  ],
+  [
+   "ARO",
+   408
+  ],
+  [
+   "Rewe bio",
+   407
+  ],
+  [
+   "Müller",
+   406
+  ],
+  [
+   "Rewe beste wahl",
+   406
+  ],
+  [
+   "Metzgerfrisch",
+   404
+  ],
+  [
+   "Ehrmann",
+   389
+  ],
+  [
+   "Hipp",
+   378
+  ],
+  [
+   "Netto Md",
+   378
+  ],
+  [
+   "Cucina",
+   359
+  ],
+  [
+   "Clever",
+   351
+  ],
+  [
+   "Trader Joe's",
+   347
+  ],
+  [
+   "NORMA",
+   336
+  ],
+  [
+   "More",
+   335
+  ],
+  [
+   "Ruf",
+   330
+  ],
+  [
+   "Wilhelm Brandenburg",
+   330
+  ],
+  [
+   "Danone",
+   306
+  ],
+  [
+   "Choceur",
+   304
+  ],
+  [
+   "Ferrero",
+   299
+  ],
+  [
+   "M Classic",
+   298
+  ],
+  [
+   "Solevita",
+   291
+  ],
+  [
+   "FRoSTA",
+   290
+  ],
+  [
+   "Ener Bio",
+   279
+  ],
+  [
+   "Landliebe",
+   276
+  ],
+  [
+   "Netto md",
+   275
+  ],
+  [
+   "Mymuesli",
+   275
+  ],
+  [
+   "Naturaplan",
+   275
+  ]
+ ],
+ "handel": {
+  "Lidl": {
+   "summe": 10793,
+   "marken": [
+    [
+     "Lidl",
+     2936
+    ],
+    [
+     "Milbona",
+     1347
+    ],
+    [
+     "Chef Select",
+     760
+    ],
+    [
+     "Dulano",
+     631
+    ],
+    [
+     "Deluxe",
+     518
+    ],
+    [
+     "Kania",
+     438
+    ],
+    [
+     "Freshona",
+     426
+    ],
+    [
+     "Vemondo",
+     394
+    ],
+    [
+     "Metzgerfrisch",
+     372
+    ],
+    [
+     "Solevita",
+     282
+    ],
+    [
+     "Italiamo",
+     223
+    ],
+    [
+     "Favorina",
+     203
+    ],
+    [
+     "Alesto",
+     184
+    ],
+    [
+     "Vitasia",
+     181
+    ],
+    [
+     "Crownfield",
+     164
+    ],
+    [
+     "Combino",
+     158
+    ],
+    [
+     "Grafschafter",
+     143
+    ],
+    [
+     "Sondey",
+     129
+    ],
+    [
+     "Gelatelli",
+     127
+    ],
+    [
+     "Eridanous",
+     127
+    ],
+    [
+     "Snack Day",
+     122
+    ],
+    [
+     "Mcennedy",
+     111
+    ],
+    [
+     "Sol Mar",
+     102
+    ],
+    [
+     "Freeway",
+     99
+    ],
+    [
+     "Golden Sun",
+     79
+    ],
+    [
+     "Baresa",
+     74
+    ],
+    [
+     "Nixe",
+     70
+    ],
+    [
+     "Pilos",
+     69
+    ],
+    [
+     "Ocean Sea",
+     51
+    ],
+    [
+     "Pikok",
+     46
+    ],
+    [
+     "Bellarom",
+     44
+    ],
+    [
+     "Saskia",
+     38
+    ],
+    [
+     "Fin Carré",
+     24
+    ],
+    [
+     "Harvest Basket",
+     24
+    ],
+    [
+     "Envia",
+     23
+    ],
+    [
+     "Bio Organic",
+     23
+    ],
+    [
+     "Perlenbacher",
+     17
+    ],
+    [
+     "Trattoria Alfredo",
+     11
+    ],
+    [
+     "Chef Select You",
+     8
+    ],
+    [
+     "Vitafit",
+     7
+    ],
+    [
+     "Cowbelle",
+     4
+    ],
+    [
+     "W5",
+     3
+    ],
+    [
+     "Linessa",
+     1
+    ]
+   ]
+  },
+  "Aldi": {
+   "summe": 9089,
+   "marken": [
+    [
+     "ALDI",
+     4611
+    ],
+    [
+     "Milsani",
+     559
+    ],
+    [
+     "Asia Green Garden",
+     347
+    ],
+    [
+     "Trader Joe's",
+     341
+    ],
+    [
+     "Choceur",
+     237
+    ],
+    [
+     "Meine Metzgerei",
+     231
+    ],
+    [
+     "Belbake",
+     216
+    ],
+    [
+     "Rio d'Oro",
+     199
+    ],
+    [
+     "Almare",
+     197
+    ],
+    [
+     "GutBio",
+     170
+    ],
+    [
+     "Lyttos",
+     162
+    ],
+    [
+     "Goldähren",
+     154
+    ],
+    [
+     "Cucina Nobile",
+     152
+    ],
+    [
+     "Mucci",
+     134
+    ],
+    [
+     "Gut Drei Eichen",
+     133
+    ],
+    [
+     "Gourmet",
+     119
+    ],
+    [
+     "Farmer",
+     118
+    ],
+    [
+     "Nur Nur Natur",
+     117
+    ],
+    [
+     "Sweet Valley",
+     109
+    ],
+    [
+     "Wonnemeyer",
+     99
+    ],
+    [
+     "Sun Snacks",
+     89
+    ],
+    [
+     "Moser Roth",
+     76
+    ],
+    [
+     "Knusperone",
+     73
+    ],
+    [
+     "Golden Bridge",
+     66
+    ],
+    [
+     "Westminster",
+     65
+    ],
+    [
+     "La Finesse",
+     62
+    ],
+    [
+     "Happy Harvest",
+     60
+    ],
+    [
+     "River",
+     51
+    ],
+    [
+     "Bon Gelati",
+     35
+    ],
+    [
+     "ALDI SÜD",
+     21
+    ],
+    [
+     "Park Street Deli",
+     21
+    ],
+    [
+     "Mama Mancini",
+     12
+    ],
+    [
+     "Tukan",
+     11
+    ],
+    [
+     "Deli Reform",
+     10
+    ],
+    [
+     "Casa Morando",
+     9
+    ],
+    [
+     "Just Veg",
+     9
+    ],
+    [
+     "ALDI Nord",
+     6
+    ],
+    [
+     "Snackfun",
+     5
+    ],
+    [
+     "Kokett",
+     2
+    ],
+    [
+     "Lacura",
+     1
+    ]
+   ]
+  },
+  "Rewe/Penny": {
+   "summe": 12068,
+   "marken": [
+    [
+     "REWE",
+     3216
+    ],
+    [
+     "PENNY",
+     2348
+    ],
+    [
+     "ja!",
+     2348
+    ],
+    [
+     "REWE Beste Wahl",
+     1548
+    ],
+    [
+     "REWE Bio",
+     1071
+    ],
+    [
+     "Wilhelm Brandenburg",
+     325
+    ],
+    [
+     "Naturgut",
+     272
+    ],
+    [
+     "Food For Future",
+     208
+    ],
+    [
+     "REWE Feine Welt",
+     202
+    ],
+    [
+     "Rewe To Go",
+     157
+    ],
+    [
+     "Penny Ready",
+     131
+    ],
+    [
+     "San Fabio",
+     127
+    ],
+    [
+     "Rewe Regional",
+     70
+    ],
+    [
+     "REWE frei von",
+     45
+    ]
+   ]
+  },
+  "Edeka/Netto": {
+   "summe": 8357,
+   "marken": [
+    [
+     "EDEKA",
+     3747
+    ],
+    [
+     "Gut & Günstig",
+     1565
+    ],
+    [
+     "Biobio",
+     730
+    ],
+    [
+     "Gutes Land",
+     550
+    ],
+    [
+     "Gut Bio",
+     515
+    ],
+    [
+     "Netto",
+     485
+    ],
+    [
+     "EDEKA Bio",
+     437
+    ],
+    [
+     "EDEKA Herzstücke",
+     99
+    ],
+    [
+     "Gut & Günstig",
+     97
+    ],
+    [
+     "Mein Veggie Tag",
+     89
+    ],
+    [
+     "Kunella",
+     14
+    ],
+    [
+     "Marktkauf",
+     10
+    ],
+    [
+     "Bio Bio",
+     9
+    ],
+    [
+     "Edeka Genussmomente",
+     8
+    ],
+    [
+     "EDEKA Italia",
+     1
+    ],
+    [
+     "Edeka Zuhause",
+     1
+    ]
+   ]
+  },
+  "Kaufland": {
+   "summe": 5512,
+   "marken": [
+    [
+     "K-Classic",
+     3261
+    ],
+    [
+     "Kaufland",
+     1537
+    ],
+    [
+     "K-Bio",
+     420
+    ],
+    [
+     "K-Favourites",
+     171
+    ],
+    [
+     "K Take It Veggie",
+     69
+    ],
+    [
+     "K-to-go",
+     24
+    ],
+    [
+     "Exquisit",
+     17
+    ],
+    [
+     "K Free",
+     13
+    ]
+   ]
+  },
+  "dm": {
+   "summe": 3534,
+   "marken": [
+    [
+     "dmBio",
+     3044
+    ],
+    [
+     "dm",
+     310
+    ],
+    [
+     "Mivolis",
+     161
+    ],
+    [
+     "Das Gesunde Plus",
+     19
+    ]
+   ]
+  },
+  "Rossmann": {
+   "summe": 1161,
+   "marken": [
+    [
+     "Rossmann",
+     512
+    ],
+    [
+     "enerBiO",
+     461
+    ],
+    [
+     "Babydream",
+     166
+    ],
+    [
+     "Altapharma",
+     22
+    ]
+   ]
+  },
+  "Norma": {
+   "summe": 807,
+   "marken": [
+    [
+     "Gourmet Finest Cuisine",
+     454
+    ],
+    [
+     "NORMA",
+     336
+    ],
+    [
+     "Tradition",
+     17
+    ]
+   ]
+  },
+  "Globus": {
+   "summe": 536,
+   "marken": [
+    [
+     "Globus",
+     536
+    ]
+   ]
+  },
+  "tegut": {
+   "summe": 552,
+   "marken": [
+    [
+     "tegut",
+     534
+    ],
+    [
+     "Tegut Bio",
+     18
+    ]
+   ]
+  },
+  "Metro": {
+   "summe": 576,
+   "marken": [
+    [
+     "ARO",
+     405
+    ],
+    [
+     "Metro Chef",
+     169
+    ],
+    [
+     "Metro Premium",
+     2
+    ]
+   ]
+  }
+ },
+ "erste_50": [
+  "Nutella · Nutella",
+  "Oatly! Barista Edition Hafer · Oatly",
+  "Kalinka Kefir Fettarm Mild Pur · Müller",
+  "Nutella · Ferrero",
+  "Maggi · Maggi",
+  "Irische Butter · Kerrygold",
+  "Wasser Volvic naturelle, 6erPack · Volvic",
+  "Monster Energy Ultra · Monster Beverage Corporation",
+  "Kalinka Kefir · müller",
+  "Schoko Reis Waffeln · Alnatura",
+  "Coca-Cola Original · Coca-Cola Company",
+  "Veganer Schinken-Spicker Mortadella · Rügenwalder Mühle",
+  "Haferflocken Blütenzart · Kölln",
+  "Red Bull Energydrink Classic · Red Bull",
+  "Schinken Spicker - Grillgemüse · Rügenwalder Mühle",
+  "Kerrygold extra Butter & Rapsöl - ungesalzen · Kerrygold",
+  "Gemüse Brühwürfel · dmBio",
+  "Philadelphia Original · Mondelez",
+  "Chipsfrisch ungarisch · funny-frisch",
+  "chipsfrisch ungarisch · funny-frisch",
+  "Kærgården - ungesalzen · Arla",
+  "Knäckebrot Vollkorn Roggen · wasa",
+  "Pringles Original · Kellogg Europe Trading Ltd",
+  "Club-Mate Original · Club Mate",
+  "Nuss-Nougat-Creme · Rapunzel",
+  "Paulaner Spezi · Paulaner",
+  "Senf mittelscharf · Baut'zner",
+  "Coca-Cola Zero · Coca-Cola",
+  "Magarine 30%fett · Becel",
+  "Lätta \\\\\\ 🔺 3x Kerrygold \\\\\\ 🔺 3x Rama \\\\\\ 1x Streichfein · Lätta",
+  "Nutella · Nutella",
+  "Leibniz Butterkeks · Bahlsen",
+  "Lätta · Flora Food",
+  "Hüttenkäse Original · Gervais",
+  "Kinder Riegel Einzelpackung · Kinder",
+  "Butter · Weihenstephan",
+  "Erdnüsse geröstet & gesalzen · ültje",
+  "Skyr Natur · Arla",
+  "Senf Mittelscharfer Delikatess Senf frisch vermahlen · Thomy",
+  "Milch · Weihenstephan",
+  "Meggle Feine Butter · Meggle",
+  "Vegane Pommersche mit Schnittlauch · Gutfried",
+  "Frischkäse · Milsani",
+  "Buko Der Sahnige · Arla",
+  "Margarine · Rama",
+  "Gewürz Ketchup ( Curry ) · Hela",
+  "Becel Vital · Becel",
+  "Duplo Einzelriegel · Duplo",
+  "Prinzenrolle Schoko · De Beukelaer",
+  "Lorenz Saltletts Sticks · Lorenz"
+ ]
+}

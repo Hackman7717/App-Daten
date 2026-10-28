@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trainingsbuch · Lebensmitteldaten</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f4f6f3; --ink: #172019; --muted: #5c6a5f; --line: #d5ddd6; --accent: #1f5235; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0e1410; --ink: #e6ece7; --muted: #9aa89d; --line: #2a362d; --accent: #7cc49a; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 26px; margin: 0 0 8px; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  code { background: color-mix(in srgb, var(--line) 60%, transparent); padding: 1px 5px; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+  dt { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lebensmitteldaten für das Trainingsbuch</h1>
+  <p>Diese Seite stellt einen Auszug aus <a href="https://world.openfoodfacts.org">Open Food Facts</a> bereit: Produkte, die in Deutschland verkauft werden und Kalorienangaben haben. Die Trainingsbuch-App lädt die Datei einmal herunter und sucht danach auf dem Gerät, auch ohne Internet.</p>
+  <dl id="info"><dt>Stand</dt><dd>wird geladen …</dd></dl>
+  <p>Einmal pro Woche wird die Datei automatisch neu erstellt. Zahlen und häufigste Marken stehen im <a href="report.md">Bericht</a>.</p>
+  <h2>Lizenz</h2>
+  <p>Diese Datenbank enthält Informationen aus Open Food Facts, die unter der <a href="https://opendatacommons.org/licenses/odbl/1-0/">Open Database License (ODbL) 1.0</a> bereitgestellt werden. Der Auszug steht ebenfalls unter der ODbL. Einzelne Inhalte stehen unter der <a href="https://opendatacommons.org/licenses/dbcl/1-0/">Database Contents License (DbCL) 1.0</a>. Produktbilder sind nicht enthalten, nur Verweise auf die Bilder bei Open Food Facts (CC BY-SA).</p>
+  <p class="muted">Format: Tab-getrennte Textdatei, gzip-gepackt. Erste Zeile <code>#tb1</code> mit den Spalten Barcode, Name, Marke, Menge, Einheit, kcal, Eiweiß, Kohlenhydrate, Fett je 100 g oder ml, Portion, Bild. Die beliebtesten Produkte stehen oben.</p>
+</main>
+<script>
+fetch('manifest.json', { cache: 'no-store' }).then(r => r.json()).then(m => {
+  const mb = (m.bytes / 1e6).toLocaleString('de-DE', { maximumFractionDigits: 1 });
+  document.getElementById('info').innerHTML = `<dt>Stand</dt><dd>${m.v}</dd><dt>Produkte</dt><dd>${m.n.toLocaleString('de-DE')}</dd><dt>Datei</dt><dd><a href="${m.file}">${m.file}</a> (${mb} MB)</dd>`;
+}).catch(() => { document.getElementById('info').innerHTML = '<dt>Stand</dt><dd>noch keine Daten</dd>'; });
+</script>
+</body>
+</html>
