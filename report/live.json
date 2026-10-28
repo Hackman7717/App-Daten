@@ -2,16 +2,17 @@
  "version": "2026-10-28",
  "datei": "de-20261028.tsv.gz",
  "pages": {
-  "ok": true,
+  "ok": false,
   "url": "https://hackman7717.github.io/App-Daten/",
   "bytes": 6878794,
   "cors": "*",
-  "type": "application/gzip"
+  "type": "application/gzip",
+  "letzter_stand": "manifest 2026-10-28"
  },
  "raw": {
   "ok": true,
   "url": "https://raw.githubusercontent.com/Hackman7717/App-Daten/gh-pages/",
-  "bytes": 6878794,
+  "bytes": 7254055,
   "cors": "*",
   "type": "application/octet-stream"
  }
