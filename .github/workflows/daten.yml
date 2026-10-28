@@ -82,11 +82,16 @@ jobs:
 
       - name: Bericht ablegen
         run: |
-          mkdir -p report
-          cp out/report.md out/report.json out/live.json out/manifest.json report/
+          # Auf den neuesten Stand von main setzen (ein früherer Lauf kann inzwischen einen Bericht abgelegt haben), dann erst kopieren
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add report
-          git commit -q -m "Bericht $(date -u +%F)" || echo "Bericht unverändert"
-          git pull -q --rebase origin main
-          git push -q origin HEAD:main
+          for n in 1 2 3; do
+            git fetch -q origin main && git checkout -q -B main origin/main
+            mkdir -p report
+            cp out/report.md out/report.json out/live.json out/manifest.json report/
+            git add report
+            git commit -q -m "Bericht $(date -u +%F)" || { echo "Bericht unverändert"; exit 0; }
+            if git push -q origin HEAD:main; then exit 0; fi
+            echo "Push $n abgelehnt, neuer Versuch"; sleep 10
+          done
+          exit 1
