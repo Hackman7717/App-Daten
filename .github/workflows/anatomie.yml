@@ -1,0 +1,72 @@
+name: Anatomie-Modell
+
+# Holt das 3D-Modell von Z-Anatomy (CC BY-SA 4.0), öffnet es in Blender ohne Oberfläche
+# und führt anat/run.py aus. Ergebnis landet im Zweig anatomie-out.
+on:
+  workflow_dispatch:
+  push:
+    branches: [anatomie]
+    paths:
+      - 'anat/**'
+      - '.github/workflows/anatomie.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: anatomie
+  cancel-in-progress: true
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache Modell und Blender
+        uses: actions/cache@v4
+        with:
+          path: |
+            za
+            blender
+          key: za-blender-v1
+
+      - name: Modell holen
+        run: |
+          if [ ! -d za ]; then
+            curl -fsSL --retry 3 -o za.zip https://media.githubusercontent.com/media/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip
+            mkdir za && cd za && unzip -q ../za.zip && cd .. && rm za.zip
+          fi
+          find za -maxdepth 3 | head -50
+          du -sh za
+
+      - name: Blender holen
+        run: |
+          if [ ! -d blender ]; then
+            curl -fsSL --retry 3 -o b.tar.xz https://download.blender.org/release/Blender4.2/blender-4.2.3-linux-x64.tar.xz
+            mkdir blender && tar -xf b.tar.xz -C blender --strip-components=1 && rm b.tar.xz
+          fi
+          sudo apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 >/dev/null || true
+          blender/blender --version | head -1
+
+      - name: Ausführen
+        run: |
+          mkdir -p out
+          BL=$(find za -name '*.blend' | head -1)
+          echo "Datei: $BL"
+          blender/blender -b "$BL" --python anat/run.py -- out 2>&1 | grep -v '^Read\|^Warning: Unable' | tail -80
+          ls -la out
+
+      - name: Ergebnis ablegen
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          cp anat/LIZENZ.md out/ 2>/dev/null || true
+          cd out
+          git init -q -b anatomie-out
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Anatomie $(date -u +%F-%H%M)"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" anatomie-out
