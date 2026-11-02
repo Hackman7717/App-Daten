@@ -65,6 +65,12 @@ jobs:
           gltfpack -i out/roh.glb -o out/muskeln.glb -cc -kn -v | tail -15
           ls -la out
 
+      - name: three.js klein bündeln
+        run: |
+          mkdir -p tb && cd tb && npm init -y >/dev/null && npm i -s three@0.170.0 esbuild@0.24.0 >/dev/null
+          cp ../anat/viewer/entry.js . && npx esbuild entry.js --bundle --minify --format=esm --legal-comments=none --outfile=../out/three-mini.js
+          head -c 0 /dev/null; cp node_modules/three/LICENSE ../out/three-LICENSE.txt; ls -la ../out
+
       - name: Ergebnis ablegen
         env:
           TOKEN: ${{ github.token }}

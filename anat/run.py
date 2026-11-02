@@ -8,13 +8,13 @@ os.makedirs(out, exist_ok=True)
 
 # Muskeln, die für Training keine Rolle spielen und verdeckt oder winzig sind
 SKIP = re.compile('|'.join([
-    r'^\(', 'Depressor', 'Levator labii', 'Levator anguli', 'nasolabialis', 'Nasalis', 'Orbicularis', 'Procerus',
+    'fascia', 'Platysma', 'Masseteric', 'Depressor', 'Levator labii', 'Levator anguli', 'nasolabialis', 'Nasalis', 'Orbicularis', 'Procerus',
     'Risorius', 'Zygomaticus', 'Mentalis', 'Corrugator', 'Bucinator', 'Frontalis', 'Occipitalis', 'Temporoparietalis',
     'Epicranial', 'Temporalis', 'masseter', 'pterygoid', 'tarsus', 'Inferior rectus', 'Superior rectus', 'Lateral rectus',
     'Medial rectus', 'Inferior oblique muscle', 'Superior oblique muscle', 'Trochlea', 'Common tendinous', 'palpebrae',
     'digastric', 'hyoid', 'glossus', 'pharyn', 'arytenoid', 'crico', 'thyro', 'ntercostal', 'Transversus thoracis',
     'Diaphragm', 'coccygeus', 'anal', 'Tendinous arch', 'Interspinales', 'intertransversarii', 'Rotatores',
-    'Levatores', 'Multifidus', 'Semispinalis', 'capitis', 'Spinalis colli', 'Longissimus colli', 'Iliocostalis colli',
+    'Levatores', 'Multifidus', 'Semispinalis', '(?<!Splenius )capitis', 'Spinalis colli', 'Longissimus colli', 'Iliocostalis colli',
     'Longus c', 'Obturator', 'gemellus', 'Quadratus femoris', 'Piriformis', 'Lumbrical', 'nterossei', 'Opponens',
     'digiti minimi', 'pollicis brevis', 'Adductor pollicis', 'adductor pollicis', 'adductor hallucis', 'hallucis brevis',
     'Abductor hallucis', 'Flexor digitorum brevis', 'Quadratus plantae', 'Extensor digitorum brevis', 'retinacul',
@@ -24,7 +24,7 @@ SKIP = re.compile('|'.join([
     'Flexor digitorum profundus', 'Flexor pollicis longus', 'Pronator quadratus', 'Supinator', 'Extensor indicis',
     'Extensor pollicis', 'Abductor pollicis longus', 'Gluteus minimus', 'Vastus intermedius', 'Subscapularis',
     'Pectoralis minor', 'Coracobrachialis',
-]))
+]), re.I)
 
 def base(n):
     return n[:-2] if n[-2:] in ('.l', '.r') else n
