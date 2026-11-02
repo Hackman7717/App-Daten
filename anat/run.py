@@ -8,7 +8,7 @@ os.makedirs(out, exist_ok=True)
 
 # Muskeln, die für Training keine Rolle spielen und verdeckt oder winzig sind
 SKIP = re.compile('|'.join([
-    'fascia', 'Platysma', 'Masseteric', 'Depressor', 'Levator labii', 'Levator anguli', 'nasolabialis', 'Nasalis', 'Orbicularis', 'Procerus',
+    r'fascia\b', 'Platysma', 'Masseteric', 'Depressor', 'Levator labii', 'Levator anguli', 'nasolabialis', 'Nasalis', 'Orbicularis', 'Procerus',
     'Risorius', 'Zygomaticus', 'Mentalis', 'Corrugator', 'Bucinator', 'Frontalis', 'Occipitalis', 'Temporoparietalis',
     'Epicranial', 'Temporalis', 'masseter', 'pterygoid', 'tarsus', 'Inferior rectus', 'Superior rectus', 'Lateral rectus',
     'Medial rectus', 'Inferior oblique muscle', 'Superior oblique muscle', 'Trochlea', 'Common tendinous', 'palpebrae',
