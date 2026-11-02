@@ -1,0 +1,2981 @@
+{
+"muskeln": [
+{
+"n": "(Abdominal part of pectoralis major muscle).l",
+"v": 756,
+"r": 0.291,
+"c": [
+0.115,
+1.248,
+0.069
+],
+"cols": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Trunk"
+]
+},
+{
+"n": "(Abdominal part of pectoralis major muscle).r",
+"v": 756,
+"r": 0.291,
+"c": [
+-0.115,
+1.248,
+0.069
+],
+"cols": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Trunk"
+]
+},
+{
+"n": "(Adductor minimus).l",
+"v": 476,
+"r": 0.462,
+"c": [
+0.078,
+0.764,
+-0.0
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb"
+]
+},
+{
+"n": "(Adductor minimus).r",
+"v": 476,
+"r": 0.462,
+"c": [
+-0.078,
+0.764,
+-0.0
+],
+"cols": [
+"4: Muscular system",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"n": "Acromial part of deltoid muscle.l",
+"v": 1482,
+"r": 0.22,
+"c": [
+0.204,
+1.367,
+-0.03
+],
+"cols": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Acromial part of deltoid muscle.r",
+"v": 1482,
+"r": 0.22,
+"c": [
+-0.204,
+1.367,
+-0.03
+],
+"cols": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Adductor brevis.l",
+"v": 1064,
+"r": 0.22,
+"c": [
+0.071,
+0.75,
+0.01
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve"
+]
+},
+{
+"n": "Adductor brevis.r",
+"v": 1064,
+"r": 0.22,
+"c": [
+-0.071,
+0.75,
+0.01
+],
+"cols": [
+"4: Muscular system",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve",
+"Right lower limb"
+]
+},
+{
+"n": "Adductor longus.l",
+"v": 1855,
+"r": 0.22,
+"c": [
+0.057,
+0.706,
+0.02
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve"
+]
+},
+{
+"n": "Adductor longus.r",
+"v": 1855,
+"r": 0.22,
+"c": [
+-0.057,
+0.706,
+0.02
+],
+"cols": [
+"4: Muscular system",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve",
+"Right lower limb"
+]
+},
+{
+"n": "Adductor magnus.l",
+"v": 4096,
+"r": 0.22,
+"c": [
+0.063,
+0.66,
+-0.016
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve",
+"Tibial nerve"
+]
+},
+{
+"n": "Adductor magnus.r",
+"v": 4096,
+"r": 0.22,
+"c": [
+-0.063,
+0.66,
+-0.016
+],
+"cols": [
+"4: Muscular system",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve",
+"Right lower limb",
+"Tibial nerve"
+]
+},
+{
+"n": "Anconeus muscle.l",
+"v": 723,
+"r": 0.304,
+"c": [
+0.226,
+1.072,
+-0.053
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve"
+]
+},
+{
+"n": "Anconeus muscle.r",
+"v": 723,
+"r": 0.304,
+"c": [
+-0.226,
+1.072,
+-0.053
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Right upper limb"
+]
+},
+{
+"n": "Ascending part of trapezius muscle.l",
+"v": 2298,
+"r": 0.22,
+"c": [
+0.034,
+1.479,
+-0.057
+],
+"cols": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Neck",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+]
+},
+{
+"n": "Ascending part of trapezius muscle.r",
+"v": 2298,
+"r": 0.22,
+"c": [
+-0.034,
+1.479,
+-0.057
+],
+"cols": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Neck",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+]
+},
+{
+"n": "Brachialis muscle.l",
+"v": 1741,
+"r": 0.22,
+"c": [
+0.215,
+1.16,
+-0.026
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve"
+]
+},
+{
+"n": "Brachialis muscle.r",
+"v": 1741,
+"r": 0.22,
+"c": [
+-0.215,
+1.16,
+-0.026
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Right upper limb"
+]
+},
+{
+"n": "Brachioradialis muscle.l",
+"v": 3658,
+"r": 0.22,
+"c": [
+0.258,
+1.049,
+-0.013
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Brachioradialis muscle.r",
+"v": 3658,
+"r": 0.22,
+"c": [
+-0.258,
+1.049,
+-0.013
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Calcaneal tendon.l",
+"v": 2191,
+"r": 0.22,
+"c": [
+0.078,
+0.165,
+-0.076
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Calcaneal tendon.r",
+"v": 2191,
+"r": 0.22,
+"c": [
+-0.078,
+0.165,
+-0.076
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Clavicular head of pectoralis major muscle.l",
+"v": 425,
+"r": 0.518,
+"c": [
+0.115,
+1.375,
+0.02
+],
+"cols": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"n": "Clavicular head of pectoralis major muscle.r",
+"v": 425,
+"r": 0.518,
+"c": [
+-0.115,
+1.375,
+0.02
+],
+"cols": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"n": "Clavicular part of deltoid muscle.l",
+"v": 1453,
+"r": 0.22,
+"c": [
+0.16,
+1.378,
+-0.004
+],
+"cols": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Clavicular part of deltoid muscle.r",
+"v": 1453,
+"r": 0.22,
+"c": [
+-0.16,
+1.378,
+-0.004
+],
+"cols": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Deep head of pronator teres.l",
+"v": 559,
+"r": 0.394,
+"c": [
+0.244,
+1.035,
+-0.012
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb"
+]
+},
+{
+"n": "Deep head of pronator teres.r",
+"v": 559,
+"r": 0.394,
+"c": [
+-0.244,
+1.035,
+-0.012
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+]
+},
+{
+"n": "Descending part of trapezius muscle.l",
+"v": 3376,
+"r": 0.22,
+"c": [
+0.038,
+1.313,
+-0.105
+],
+"cols": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+]
+},
+{
+"n": "Descending part of trapezius muscle.r",
+"v": 3376,
+"r": 0.22,
+"c": [
+-0.038,
+1.313,
+-0.105
+],
+"cols": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+]
+},
+{
+"n": "Extensor carpi radialis brevis.l",
+"v": 1573,
+"r": 0.22,
+"c": [
+0.261,
+0.99,
+-0.025
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve"
+]
+},
+{
+"n": "Extensor carpi radialis brevis.r",
+"v": 1573,
+"r": 0.22,
+"c": [
+-0.261,
+0.99,
+-0.025
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Right upper limb"
+]
+},
+{
+"n": "Extensor carpi radialis longus.l",
+"v": 1857,
+"r": 0.22,
+"c": [
+0.264,
+1.021,
+-0.024
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Extensor carpi radialis longus.r",
+"v": 1857,
+"r": 0.22,
+"c": [
+-0.264,
+1.021,
+-0.024
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Extensor digitorum longus.l",
+"v": 1597,
+"r": 0.22,
+"c": [
+0.108,
+0.27,
+-0.03
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve"
+]
+},
+{
+"n": "Extensor digitorum longus.r",
+"v": 1597,
+"r": 0.22,
+"c": [
+-0.108,
+0.27,
+-0.03
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+]
+},
+{
+"n": "Extensor digitorum.l",
+"v": 3201,
+"r": 0.22,
+"c": [
+0.261,
+0.879,
+-0.0
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Superficial muscles"
+]
+},
+{
+"n": "Extensor digitorum.r",
+"v": 3201,
+"r": 0.22,
+"c": [
+-0.261,
+0.879,
+-0.0
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Extensor hallucis longus.l",
+"v": 1183,
+"r": 0.22,
+"c": [
+0.093,
+0.162,
+-0.015
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve"
+]
+},
+{
+"n": "Extensor hallucis longus.r",
+"v": 1183,
+"r": 0.22,
+"c": [
+-0.093,
+0.162,
+-0.015
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+]
+},
+{
+"n": "External abdominal oblique muscle.l",
+"v": 14811,
+"r": 0.22,
+"c": [
+0.068,
+1.074,
+0.076
+],
+"cols": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"n": "External abdominal oblique muscle.r",
+"v": 14811,
+"r": 0.22,
+"c": [
+-0.068,
+1.074,
+0.076
+],
+"cols": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"n": "Fibularis brevis muscle.l",
+"v": 1723,
+"r": 0.22,
+"c": [
+0.105,
+0.135,
+-0.049
+],
+"cols": [
+"4: Muscular system",
+"Lateral compartment of leg",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve",
+"Superficial fibular nerve"
+]
+},
+{
+"n": "Fibularis brevis muscle.r",
+"v": 1723,
+"r": 0.22,
+"c": [
+-0.105,
+0.135,
+-0.049
+],
+"cols": [
+"4: Muscular system",
+"Lateral compartment of leg",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial fibular nerve"
+]
+},
+{
+"n": "Fibularis longus muscle.l",
+"v": 2739,
+"r": 0.22,
+"c": [
+0.112,
+0.216,
+-0.04
+],
+"cols": [
+"4: Muscular system",
+"Lateral compartment of leg",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve",
+"Superficial fibular nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Fibularis longus muscle.r",
+"v": 2739,
+"r": 0.22,
+"c": [
+-0.112,
+0.216,
+-0.04
+],
+"cols": [
+"4: Muscular system",
+"Lateral compartment of leg",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial fibular nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Fibularis tertius muscle.l",
+"v": 294,
+"r": 0.748,
+"c": [
+0.105,
+0.086,
+-0.016
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve"
+]
+},
+{
+"n": "Fibularis tertius muscle.r",
+"v": 294,
+"r": 0.748,
+"c": [
+-0.105,
+0.086,
+-0.016
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+]
+},
+{
+"n": "Flexor carpi radialis.l",
+"v": 835,
+"r": 0.263,
+"c": [
+0.23,
+0.992,
+0.009
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb"
+]
+},
+{
+"n": "Flexor carpi radialis.r",
+"v": 835,
+"r": 0.263,
+"c": [
+-0.23,
+0.992,
+0.009
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+]
+},
+{
+"n": "Gluteus maximus muscle.l",
+"v": 1663,
+"r": 0.22,
+"c": [
+0.078,
+0.854,
+-0.068
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial gluteal muscles",
+"Superficial muscles"
+]
+},
+{
+"n": "Gluteus maximus muscle.r",
+"v": 1663,
+"r": 0.22,
+"c": [
+-0.078,
+0.854,
+-0.068
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial gluteal muscles",
+"Superficial muscles"
+]
+},
+{
+"n": "Gluteus medius muscle.l",
+"v": 2590,
+"r": 0.22,
+"c": [
+0.116,
+0.918,
+-0.031
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial gluteal muscles"
+]
+},
+{
+"n": "Gluteus medius muscle.r",
+"v": 2590,
+"r": 0.22,
+"c": [
+-0.116,
+0.918,
+-0.031
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial gluteal muscles"
+]
+},
+{
+"n": "Gracilis muscle.l",
+"v": 2404,
+"r": 0.22,
+"c": [
+0.026,
+0.634,
+-0.005
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve",
+"Posterior compartment of thigh"
+]
+},
+{
+"n": "Gracilis muscle.r",
+"v": 2404,
+"r": 0.22,
+"c": [
+-0.026,
+0.634,
+-0.005
+],
+"cols": [
+"4: Muscular system",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve",
+"Right lower limb"
+]
+},
+{
+"n": "Humeral head of extensor carpi ulnaris.l",
+"v": 411,
+"r": 0.535,
+"c": [
+0.237,
+0.969,
+-0.025
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm"
+]
+},
+{
+"n": "Humeral head of extensor carpi ulnaris.r",
+"v": 411,
+"r": 0.535,
+"c": [
+-0.237,
+0.969,
+-0.025
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Right upper limb"
+]
+},
+{
+"n": "Humeral head of flexor carpi ulnaris.l",
+"v": 1954,
+"r": 0.22,
+"c": [
+0.211,
+0.979,
+-0.007
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles",
+"Ulnar nerve"
+]
+},
+{
+"n": "Humeral head of flexor carpi ulnaris.r",
+"v": 1954,
+"r": 0.22,
+"c": [
+-0.211,
+0.979,
+-0.007
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles",
+"Ulnar nerve"
+]
+},
+{
+"n": "Humero-ulnar head of flexor digitorum superficialis.l",
+"v": 6401,
+"r": 0.22,
+"c": [
+0.24,
+0.91,
+0.018
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb"
+]
+},
+{
+"n": "Humero-ulnar head of flexor digitorum superficialis.r",
+"v": 6401,
+"r": 0.22,
+"c": [
+-0.24,
+0.91,
+0.018
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+]
+},
+{
+"n": "Iliacus muscle.l",
+"v": 2179,
+"r": 0.22,
+"c": [
+0.086,
+0.907,
+0.011
+],
+"cols": [
+"4: Muscular system",
+"Femoral nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb"
+]
+},
+{
+"n": "Iliacus muscle.r",
+"v": 2179,
+"r": 0.22,
+"c": [
+-0.086,
+0.907,
+0.011
+],
+"cols": [
+"4: Muscular system",
+"Femoral nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"n": "Iliocostalis lumborum muscle.l",
+"v": 5019,
+"r": 0.22,
+"c": [
+0.056,
+1.07,
+-0.075
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Erector spinae",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Iliocostalis lumborum muscle.r",
+"v": 5019,
+"r": 0.22,
+"c": [
+-0.056,
+1.07,
+-0.075
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Erector spinae",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Iliocostalis thoracis muscle.l",
+"v": 2888,
+"r": 0.22,
+"c": [
+0.07,
+1.282,
+-0.082
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Erector spinae",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Iliocostalis thoracis muscle.r",
+"v": 2888,
+"r": 0.22,
+"c": [
+-0.07,
+1.282,
+-0.082
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Erector spinae",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Iliotibial tract.l",
+"v": 24298,
+"r": 0.22,
+"c": [
+0.138,
+0.757,
+-0.011
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Iliotibial tract.r",
+"v": 24298,
+"r": 0.22,
+"c": [
+-0.138,
+0.757,
+-0.011
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Infraspinatus muscle.l",
+"v": 1585,
+"r": 0.22,
+"c": [
+0.129,
+1.358,
+-0.08
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Rotator cuff muscles",
+"Suprascapular nerve",
+"Trunk"
+]
+},
+{
+"n": "Infraspinatus muscle.r",
+"v": 1585,
+"r": 0.22,
+"c": [
+-0.129,
+1.358,
+-0.08
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Rotator cuff muscles",
+"Suprascapular nerve",
+"Trunk"
+]
+},
+{
+"n": "Lateral head of gastrocnemius.l",
+"v": 2454,
+"r": 0.22,
+"c": [
+0.106,
+0.366,
+-0.074
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Lateral head of gastrocnemius.r",
+"v": 2454,
+"r": 0.22,
+"c": [
+-0.106,
+0.366,
+-0.074
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Lateral head of triceps brachii.l",
+"v": 1816,
+"r": 0.22,
+"c": [
+0.211,
+1.226,
+-0.06
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Lateral head of triceps brachii.r",
+"v": 1816,
+"r": 0.22,
+"c": [
+-0.211,
+1.226,
+-0.06
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Latissimus dorsi muscle.l",
+"v": 10796,
+"r": 0.22,
+"c": [
+0.082,
+1.155,
+-0.072
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"n": "Latissimus dorsi muscle.r",
+"v": 10796,
+"r": 0.22,
+"c": [
+-0.082,
+1.155,
+-0.072
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"n": "Levator scapulae.l",
+"v": 1543,
+"r": 0.22,
+"c": [
+0.049,
+1.455,
+-0.048
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Dorsal scapular nerve",
+"Hypaxial muscles of back",
+"Muscles",
+"Neck",
+"Trunk"
+]
+},
+{
+"n": "Levator scapulae.r",
+"v": 1543,
+"r": 0.22,
+"c": [
+-0.049,
+1.455,
+-0.048
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Dorsal scapular nerve",
+"Hypaxial muscles of back",
+"Muscles",
+"Neck",
+"Trunk"
+]
+},
+{
+"n": "Long head of biceps brachii.l",
+"v": 1611,
+"r": 0.22,
+"c": [
+0.205,
+1.228,
+-0.013
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Long head of biceps brachii.r",
+"v": 1611,
+"r": 0.22,
+"c": [
+-0.205,
+1.228,
+-0.013
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Long head of biceps femoris.l",
+"v": 3623,
+"r": 0.22,
+"c": [
+0.095,
+0.612,
+-0.048
+],
+"cols": [
+"4: Muscular system",
+"Common fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Long head of biceps femoris.r",
+"v": 3623,
+"r": 0.22,
+"c": [
+-0.095,
+0.612,
+-0.048
+],
+"cols": [
+"4: Muscular system",
+"Common fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Long head of triceps brachii.l",
+"v": 1977,
+"r": 0.22,
+"c": [
+0.18,
+1.239,
+-0.06
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Long head of triceps brachii.r",
+"v": 1977,
+"r": 0.22,
+"c": [
+-0.18,
+1.239,
+-0.06
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Longissimus thoracis muscle.l",
+"v": 4818,
+"r": 0.22,
+"c": [
+0.033,
+1.193,
+-0.075
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Erector spinae",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Longissimus thoracis muscle.r",
+"v": 4818,
+"r": 0.22,
+"c": [
+-0.033,
+1.193,
+-0.075
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Erector spinae",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Medial head of gastrocnemius.l",
+"v": 3233,
+"r": 0.22,
+"c": [
+0.06,
+0.372,
+-0.064
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Medial head of gastrocnemius.r",
+"v": 3233,
+"r": 0.22,
+"c": [
+-0.06,
+0.372,
+-0.064
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Medial head of triceps brachii.l",
+"v": 1345,
+"r": 0.22,
+"c": [
+0.195,
+1.175,
+-0.047
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve"
+]
+},
+{
+"n": "Medial head of triceps brachii.r",
+"v": 1345,
+"r": 0.22,
+"c": [
+-0.195,
+1.175,
+-0.047
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve",
+"Right upper limb"
+]
+},
+{
+"n": "Palmaris longus muscle.l",
+"v": 2177,
+"r": 0.22,
+"c": [
+0.245,
+0.891,
+0.026
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb"
+]
+},
+{
+"n": "Palmaris longus muscle.r",
+"v": 2177,
+"r": 0.22,
+"c": [
+-0.245,
+0.891,
+0.026
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+]
+},
+{
+"n": "Pectineus muscle.l",
+"v": 974,
+"r": 0.226,
+"c": [
+0.057,
+0.817,
+0.032
+],
+"cols": [
+"4: Muscular system",
+"Femoral nerve",
+"Left lower limb",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb"
+]
+},
+{
+"n": "Pectineus muscle.r",
+"v": 974,
+"r": 0.226,
+"c": [
+-0.057,
+0.817,
+0.032
+],
+"cols": [
+"4: Muscular system",
+"Femoral nerve",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"n": "Plantaris muscle.l",
+"v": 2351,
+"r": 0.22,
+"c": [
+0.077,
+0.311,
+-0.062
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Sciatic nerve",
+"Tibial nerve"
+]
+},
+{
+"n": "Plantaris muscle.r",
+"v": 2351,
+"r": 0.22,
+"c": [
+-0.077,
+0.311,
+-0.062
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Right lower limb",
+"Sciatic nerve",
+"Tibial nerve"
+]
+},
+{
+"n": "Psoas major.l",
+"v": 2737,
+"r": 0.22,
+"c": [
+0.046,
+0.988,
+-0.006
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Trunk"
+]
+},
+{
+"n": "Psoas major.r",
+"v": 2737,
+"r": 0.22,
+"c": [
+-0.046,
+0.988,
+-0.006
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Trunk"
+]
+},
+{
+"n": "Quadratus lumborum muscle.l",
+"v": 1416,
+"r": 0.22,
+"c": [
+0.04,
+1.051,
+-0.054
+],
+"cols": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Back",
+"Muscles",
+"Muscles of abdomen",
+"Trunk"
+]
+},
+{
+"n": "Quadratus lumborum muscle.r",
+"v": 1416,
+"r": 0.22,
+"c": [
+-0.04,
+1.051,
+-0.054
+],
+"cols": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Back",
+"Muscles",
+"Muscles of abdomen",
+"Trunk"
+]
+},
+{
+"n": "Radial head of flexor digitorum superficialis.l",
+"v": 640,
+"r": 0.344,
+"c": [
+0.249,
+0.968,
+0.005
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb"
+]
+},
+{
+"n": "Radial head of flexor digitorum superficialis.r",
+"v": 640,
+"r": 0.344,
+"c": [
+-0.249,
+0.968,
+0.005
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+]
+},
+{
+"n": "Rectus abdominis muscle.l",
+"v": 10304,
+"r": 0.22,
+"c": [
+0.041,
+1.106,
+0.097
+],
+"cols": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Trunk"
+]
+},
+{
+"n": "Rectus abdominis muscle.r",
+"v": 10304,
+"r": 0.22,
+"c": [
+-0.041,
+1.106,
+0.097
+],
+"cols": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Trunk"
+]
+},
+{
+"n": "Rectus femoris muscle.l",
+"v": 4136,
+"r": 0.22,
+"c": [
+0.104,
+0.656,
+0.024
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Rectus femoris muscle.r",
+"v": 4136,
+"r": 0.22,
+"c": [
+-0.104,
+0.656,
+0.024
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Rhomboid major muscle.l",
+"v": 2402,
+"r": 0.22,
+"c": [
+0.03,
+1.361,
+-0.1
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Dorsal scapular nerve",
+"Hypaxial muscles of back",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Rhomboid major muscle.r",
+"v": 2402,
+"r": 0.22,
+"c": [
+-0.03,
+1.361,
+-0.1
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Dorsal scapular nerve",
+"Hypaxial muscles of back",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Rhomboid minor muscle.l",
+"v": 747,
+"r": 0.295,
+"c": [
+0.028,
+1.413,
+-0.089
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Dorsal scapular nerve",
+"Hypaxial muscles of back",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Rhomboid minor muscle.r",
+"v": 747,
+"r": 0.295,
+"c": [
+-0.028,
+1.413,
+-0.089
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Dorsal scapular nerve",
+"Hypaxial muscles of back",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Sartorius muscle.l",
+"v": 2481,
+"r": 0.22,
+"c": [
+0.063,
+0.65,
+0.02
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Sartorius muscle.r",
+"v": 2481,
+"r": 0.22,
+"c": [
+-0.063,
+0.65,
+0.02
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Scapular spinal part of deltoid muscle.l",
+"v": 2189,
+"r": 0.22,
+"c": [
+0.182,
+1.343,
+-0.067
+],
+"cols": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Scapular spinal part of deltoid muscle.r",
+"v": 2189,
+"r": 0.22,
+"c": [
+-0.182,
+1.343,
+-0.067
+],
+"cols": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Semimembranosus muscle.l",
+"v": 3725,
+"r": 0.22,
+"c": [
+0.045,
+0.579,
+-0.043
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Sciatic nerve",
+"Tibial nerve"
+]
+},
+{
+"n": "Semimembranosus muscle.r",
+"v": 3725,
+"r": 0.22,
+"c": [
+-0.045,
+0.579,
+-0.043
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Right lower limb",
+"Sciatic nerve",
+"Tibial nerve"
+]
+},
+{
+"n": "Semitendinosus muscle.l",
+"v": 2158,
+"r": 0.22,
+"c": [
+0.05,
+0.607,
+-0.053
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Semitendinosus muscle.r",
+"v": 2158,
+"r": 0.22,
+"c": [
+-0.05,
+0.607,
+-0.053
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+]
+},
+{
+"n": "Serratus anterior muscle.l",
+"v": 12618,
+"r": 0.22,
+"c": [
+0.115,
+1.303,
+-0.033
+],
+"cols": [
+"4: Muscular system",
+"Long thoracic nerve",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Serratus anterior muscle.r",
+"v": 12618,
+"r": 0.22,
+"c": [
+-0.115,
+1.303,
+-0.033
+],
+"cols": [
+"4: Muscular system",
+"Long thoracic nerve",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Short head of biceps brachii.l",
+"v": 1344,
+"r": 0.22,
+"c": [
+0.184,
+1.251,
+-0.011
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Short head of biceps brachii.r",
+"v": 1344,
+"r": 0.22,
+"c": [
+-0.184,
+1.251,
+-0.011
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Short head of biceps femoris.l",
+"v": 1238,
+"r": 0.22,
+"c": [
+0.107,
+0.532,
+-0.035
+],
+"cols": [
+"4: Muscular system",
+"Common fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Sciatic nerve",
+"Tibial nerve"
+]
+},
+{
+"n": "Short head of biceps femoris.r",
+"v": 1238,
+"r": 0.22,
+"c": [
+-0.107,
+0.532,
+-0.035
+],
+"cols": [
+"4: Muscular system",
+"Common fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Right lower limb",
+"Sciatic nerve",
+"Tibial nerve"
+]
+},
+{
+"n": "Soleus muscle.l",
+"v": 3379,
+"r": 0.22,
+"c": [
+0.086,
+0.284,
+-0.058
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Sciatic nerve",
+"Tibial nerve"
+]
+},
+{
+"n": "Soleus muscle.r",
+"v": 3379,
+"r": 0.22,
+"c": [
+-0.086,
+0.284,
+-0.058
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Right lower limb",
+"Sciatic nerve",
+"Tibial nerve"
+]
+},
+{
+"n": "Spinalis thoracis muscle.l",
+"v": 2768,
+"r": 0.22,
+"c": [
+0.005,
+1.237,
+-0.087
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Erector spinae",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Spinalis thoracis muscle.r",
+"v": 2768,
+"r": 0.22,
+"c": [
+-0.005,
+1.237,
+-0.087
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Erector spinae",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Splenius capitis muscle.l",
+"v": 2629,
+"r": 0.22,
+"c": [
+0.021,
+1.472,
+-0.06
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Muscles",
+"Neck",
+"Trunk"
+]
+},
+{
+"n": "Splenius capitis muscle.r",
+"v": 2629,
+"r": 0.22,
+"c": [
+-0.021,
+1.472,
+-0.06
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Muscles",
+"Neck",
+"Trunk"
+]
+},
+{
+"n": "Splenius colli muscle.l",
+"v": 2158,
+"r": 0.22,
+"c": [
+0.018,
+1.387,
+-0.08
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Muscles",
+"Neck",
+"Trunk"
+]
+},
+{
+"n": "Splenius colli muscle.r",
+"v": 2158,
+"r": 0.22,
+"c": [
+-0.018,
+1.387,
+-0.08
+],
+"cols": [
+"4: Muscular system",
+"Back",
+"Muscles",
+"Neck",
+"Trunk"
+]
+},
+{
+"n": "Sternocleidomastoid muscle.l",
+"v": 2472,
+"r": 0.22,
+"c": [
+0.036,
+1.47,
+0.016
+],
+"cols": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Muscles",
+"Muscles of neck",
+"Neck",
+"Trunk"
+]
+},
+{
+"n": "Sternocleidomastoid muscle.r",
+"v": 2472,
+"r": 0.22,
+"c": [
+-0.036,
+1.47,
+0.016
+],
+"cols": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Muscles",
+"Muscles of neck",
+"Neck",
+"Trunk"
+]
+},
+{
+"n": "Sternocostal head of pectoralis major muscle.l",
+"v": 1611,
+"r": 0.22,
+"c": [
+0.087,
+1.308,
+0.073
+],
+"cols": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"n": "Sternocostal head of pectoralis major muscle.r",
+"v": 1611,
+"r": 0.22,
+"c": [
+-0.087,
+1.308,
+0.073
+],
+"cols": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"n": "Superficial head of pronator teres.l",
+"v": 1273,
+"r": 0.22,
+"c": [
+0.24,
+1.046,
+-0.011
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb"
+]
+},
+{
+"n": "Superficial head of pronator teres.r",
+"v": 1273,
+"r": 0.22,
+"c": [
+-0.24,
+1.046,
+-0.011
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+]
+},
+{
+"n": "Supraspinatus muscle.l",
+"v": 717,
+"r": 0.307,
+"c": [
+0.148,
+1.399,
+-0.045
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Rotator cuff muscles",
+"Suprascapular nerve",
+"Trunk"
+]
+},
+{
+"n": "Supraspinatus muscle.r",
+"v": 717,
+"r": 0.307,
+"c": [
+-0.148,
+1.399,
+-0.045
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Rotator cuff muscles",
+"Suprascapular nerve",
+"Trunk"
+]
+},
+{
+"n": "Tendon of extensor digitorum longus.l",
+"v": 2640,
+"r": 0.22,
+"c": [
+0.105,
+0.05,
+0.043
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve"
+]
+},
+{
+"n": "Tendon of extensor digitorum longus.r",
+"v": 2640,
+"r": 0.22,
+"c": [
+-0.105,
+0.05,
+0.043
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+]
+},
+{
+"n": "Tensor fasciae latae.l",
+"v": 933,
+"r": 0.236,
+"c": [
+0.133,
+0.886,
+0.029
+],
+"cols": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial gluteal muscles"
+]
+},
+{
+"n": "Tensor fasciae latae.r",
+"v": 933,
+"r": 0.236,
+"c": [
+-0.133,
+0.886,
+0.029
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial gluteal muscles"
+]
+},
+{
+"n": "Teres major muscle.l",
+"v": 577,
+"r": 0.381,
+"c": [
+0.146,
+1.301,
+-0.057
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Trunk"
+]
+},
+{
+"n": "Teres major muscle.r",
+"v": 577,
+"r": 0.381,
+"c": [
+-0.146,
+1.301,
+-0.057
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Trunk"
+]
+},
+{
+"n": "Teres minor muscle.l",
+"v": 763,
+"r": 0.288,
+"c": [
+0.151,
+1.347,
+-0.064
+],
+"cols": [
+"4: Muscular system",
+"Axillary nerve",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Rotator cuff muscles"
+]
+},
+{
+"n": "Teres minor muscle.r",
+"v": 763,
+"r": 0.288,
+"c": [
+-0.151,
+1.347,
+-0.064
+],
+"cols": [
+"4: Muscular system",
+"Axillary nerve",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Rotator cuff muscles"
+]
+},
+{
+"n": "Tibialis anterior muscle.l",
+"v": 1761,
+"r": 0.22,
+"c": [
+0.091,
+0.229,
+-0.009
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Tibialis anterior muscle.r",
+"v": 1761,
+"r": 0.22,
+"c": [
+-0.091,
+0.229,
+-0.009
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles"
+]
+},
+{
+"n": "Transverse part of trapezius muscle.l",
+"v": 1494,
+"r": 0.22,
+"c": [
+0.049,
+1.413,
+-0.087
+],
+"cols": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+]
+},
+{
+"n": "Transverse part of trapezius muscle.r",
+"v": 1494,
+"r": 0.22,
+"c": [
+-0.049,
+1.413,
+-0.087
+],
+"cols": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+]
+},
+{
+"n": "Ulnar head of extensor carpi ulnaris.l",
+"v": 292,
+"r": 0.753,
+"c": [
+0.231,
+0.944,
+-0.007
+],
+"cols": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm"
+]
+},
+{
+"n": "Ulnar head of extensor carpi ulnaris.r",
+"v": 292,
+"r": 0.753,
+"c": [
+-0.231,
+0.944,
+-0.007
+],
+"cols": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Right upper limb"
+]
+},
+{
+"n": "Ulnar head of flexor carpi ulnaris.l",
+"v": 725,
+"r": 0.303,
+"c": [
+0.215,
+1.001,
+-0.026
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles",
+"Ulnar nerve"
+]
+},
+{
+"n": "Ulnar head of flexor carpi ulnaris.r",
+"v": 725,
+"r": 0.303,
+"c": [
+-0.215,
+1.001,
+-0.026
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles",
+"Ulnar nerve"
+]
+},
+{
+"n": "Vastus lateralis muscle.l",
+"v": 4678,
+"r": 0.22,
+"c": [
+0.125,
+0.606,
+0.004
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Vastus lateralis muscle.r",
+"v": 4678,
+"r": 0.22,
+"c": [
+-0.125,
+0.606,
+0.004
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Vastus medialis muscle.l",
+"v": 3232,
+"r": 0.22,
+"c": [
+0.07,
+0.58,
+0.016
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+]
+},
+{
+"n": "Vastus medialis muscle.r",
+"v": 3232,
+"r": 0.22,
+"c": [
+-0.07,
+0.58,
+0.016
+],
+"cols": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+]
+}
+],
+"skelett_v": 26584
+}
