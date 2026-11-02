@@ -59,6 +59,12 @@ jobs:
           blender/blender -b "$BL" --python anat/run.py -- out 2>&1 | grep -v '^Read\|^Warning: Unable' | tail -80
           ls -la out
 
+      - name: Packen (gltfpack, meshopt)
+        run: |
+          npm i -g gltfpack@0.24.0 >/dev/null 2>&1 || npm i -g gltfpack >/dev/null
+          gltfpack -i out/roh.glb -o out/muskeln.glb -cc -kn -v | tail -15
+          ls -la out
+
       - name: Ergebnis ablegen
         env:
           TOKEN: ${{ github.token }}
