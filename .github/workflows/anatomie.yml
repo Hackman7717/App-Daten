@@ -35,8 +35,9 @@ jobs:
       - name: Modell holen
         run: |
           if [ ! -d za ]; then
-            curl -fsSL --retry 3 -o za.zip https://media.githubusercontent.com/media/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip
-            mkdir za && cd za && unzip -q ../za.zip && cd .. && rm za.zip
+            GIT_LFS_SKIP_SMUDGE=1 git clone -q --depth 1 https://github.com/Z-Anatomy/Models-of-human-anatomy.git zsrc
+            (cd zsrc && git lfs pull --include "Z-Anatomy.zip" && ls -la)
+            mkdir za && cd za && unzip -q ../zsrc/Z-Anatomy.zip && cd .. && rm -rf zsrc
           fi
           find za -maxdepth 3 | head -50
           du -sh za
