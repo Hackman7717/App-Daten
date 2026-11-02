@@ -1,7 +1,7 @@
 # Deutsche Produkte, Stand 2026-11-02
 
 - Produkte in der Datei: **244985** (7.3 MB gepackt, 19.5 MB entpackt)
-- Quelle: JSONL-Export (openfoodfacts-products.jsonl.gz), Laufzeit 347 s
+- Quelle: JSONL-Export (openfoodfacts-products.jsonl.gz), Laufzeit 414 s
 - Gelesen: 440541, davon Deutschland: 437185
 - Aussortiert: ohne Kalorien 177928, ohne Name 13227, ohne Barcode 824, unplausibel 221
 - Namen: deutsch 360875, andere Sprache 62914
