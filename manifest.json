@@ -1,0 +1,10 @@
+{
+ "format": "tb1",
+ "v": "2026-11-09",
+ "file": "de-20261109-495d5b7e.tsv.gz",
+ "n": 245710,
+ "bytes": 7343214,
+ "raw": 19527681,
+ "sha256": "495d5b7e31b051f32f8a5ef2bdae5da4e156ddb9c5a297a13c0db4e9773bf0de",
+ "quelle": "Open Food Facts (https://world.openfoodfacts.org), ODbL 1.0"
+}
