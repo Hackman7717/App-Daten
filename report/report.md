@@ -1,87 +1,87 @@
-# Deutsche Produkte, Stand 2026-11-02
+# Deutsche Produkte, Stand 2026-11-09
 
-- Produkte in der Datei: **244985** (7.3 MB gepackt, 19.5 MB entpackt)
-- Quelle: JSONL-Export (openfoodfacts-products.jsonl.gz), Laufzeit 414 s
-- Gelesen: 440541, davon Deutschland: 437185
-- Aussortiert: ohne Kalorien 177928, ohne Name 13227, ohne Barcode 824, unplausibel 221
-- Namen: deutsch 360875, andere Sprache 62914
+- Produkte in der Datei: **245710** (7.3 MB gepackt, 19.5 MB entpackt)
+- Quelle: JSONL-Export (openfoodfacts-products.jsonl.gz), Laufzeit 1515 s
+- Gelesen: 441771, davon Deutschland: 438416
+- Aussortiert: ohne Kalorien 178420, ohne Name 13237, ohne Barcode 828, unplausibel 221
+- Namen: deutsch 361879, andere Sprache 63128
 
-## Handelsmarken (eigene Zuordnung, 52957 Produkte)
+## Handelsmarken (eigene Zuordnung, 53142 Produkte)
 
-- **Lidl**: 11117 Produkte. Lidl 3022, Milbona 1369, Chef Select 781, Dulano 633, Deluxe 526, Kania 452, Freshona 439, Vemondo 423, Metzgerfrisch 375, Solevita 286, Italiamo 228, Favorina 204
-- **Aldi**: 9164 Produkte. ALDI 4638, Milsani 568, Asia Green Garden 354, Trader Joe's 347, Choceur 240, Meine Metzgerei 232, Belbake 221, Rio d'Oro 199, Almare 197, GutBio 170, Lyttos 164, Goldähren 160
-- **Rewe/Penny**: 12107 Produkte. REWE 3216, ja! 2359, PENNY 2353, REWE Beste Wahl 1555, REWE Bio 1077, Wilhelm Brandenburg 328, Naturgut 273, Food For Future 209, REWE Feine Welt 203, Rewe To Go 160, Penny Ready 132, San Fabio 127
-- **Edeka/Netto**: 8380 Produkte. EDEKA 3759, Gut & Günstig 1571, Biobio 732, Gutes Land 553, Gut Bio 514, Netto 485, EDEKA Bio 438, EDEKA Herzstücke 99, Gut & Günstig 97, Mein Veggie Tag 89, Kunella 14, Marktkauf 10
-- **Kaufland**: 5537 Produkte. K-Classic 3280, Kaufland 1547, K-Bio 417, K-Favourites 171, K Take It Veggie 68, K-to-go 24, Exquisit 17, K Free 13
-- **dm**: 3606 Produkte. dmBio 3107, dm 314, Mivolis 166, Das Gesunde Plus 19
-- **Rossmann**: 1170 Produkte. Rossmann 511, enerBiO 471, Babydream 166, Altapharma 22
-- **Norma**: 809 Produkte. Gourmet Finest Cuisine 455, NORMA 337, Tradition 17
-- **Globus**: 537 Produkte. Globus 537
-- **tegut**: 552 Produkte. tegut 534, Tegut Bio 18
-- **Metro**: 576 Produkte. ARO 405, Metro Chef 169, Metro Premium 2
+- **Lidl**: 11149 Produkte. Lidl 3029, Milbona 1373, Chef Select 785, Dulano 636, Deluxe 528, Kania 453, Freshona 440, Vemondo 425, Metzgerfrisch 377, Solevita 286, Italiamo 228, Alesto 204
+- **Aldi**: 9201 Produkte. ALDI 4654, Milsani 570, Asia Green Garden 359, Trader Joe's 347, Choceur 240, Meine Metzgerei 235, Belbake 222, Rio d'Oro 200, Almare 198, GutBio 170, Lyttos 164, Goldähren 160
+- **Rewe/Penny**: 12166 Produkte. REWE 3220, ja! 2384, PENNY 2354, REWE Beste Wahl 1566, REWE Bio 1085, Wilhelm Brandenburg 332, Naturgut 273, Food For Future 209, REWE Feine Welt 203, Rewe To Go 160, Penny Ready 136, San Fabio 127
+- **Edeka/Netto**: 8405 Produkte. EDEKA 3770, Gut & Günstig 1583, Biobio 732, Gutes Land 553, Gut Bio 513, Netto 486, EDEKA Bio 441, EDEKA Herzstücke 98, Gut & Günstig 97, Mein Veggie Tag 89, Kunella 14, Marktkauf 10
+- **Kaufland**: 5556 Produkte. K-Classic 3290, Kaufland 1558, K-Bio 415, K-Favourites 171, K Take It Veggie 68, K-to-go 24, Exquisit 17, K Free 13
+- **dm**: 3611 Produkte. dmBio 3111, dm 315, Mivolis 166, Das Gesunde Plus 19
+- **Rossmann**: 1171 Produkte. Rossmann 510, enerBiO 473, Babydream 166, Altapharma 22
+- **Norma**: 812 Produkte. Gourmet Finest Cuisine 458, NORMA 337, Tradition 17
+- **Globus**: 542 Produkte. Globus 542
+- **tegut**: 553 Produkte. tegut 535, Tegut Bio 18
+- **Metro**: 575 Produkte. ARO 405, Metro Chef 168, Metro Premium 2
 
 ## Häufigste Marken
 
-1. ALDI: 4638
-2. Lidl: 4192
-3. REWE: 3997
-4. EDEKA: 3770
-5. K-Classic: 3297
-6. dmBio: 3107
-7. PENNY: 2601
-8. ja!: 2560
-9. Kaufland: 2283
-10. Gut & Günstig: 2172
-11. REWE Beste Wahl: 1901
-12. Alnatura: 1801
-13. Milbona: 1432
-14. Migros: 1314
-15. Coop: 1242
-16. REWE Bio: 1233
-17. Knorr: 1091
-18. Dr. Oetker: 981
-19. Lindt: 954
-20. Nestlé: 876
-21. Spar: 836
-22. Dennree: 810
-23. Chef Select: 785
-24. Maggi: 775
-25. Jeden Tag: 745
+1. ALDI: 4654
+2. Lidl: 4201
+3. REWE: 4007
+4. EDEKA: 3781
+5. K-Classic: 3307
+6. dmBio: 3111
+7. PENNY: 2602
+8. ja!: 2584
+9. Kaufland: 2293
+10. Gut & Günstig: 2191
+11. REWE Beste Wahl: 1911
+12. Alnatura: 1803
+13. Milbona: 1435
+14. Migros: 1321
+15. Coop: 1248
+16. REWE Bio: 1241
+17. Knorr: 1094
+18. Dr. Oetker: 984
+19. Lindt: 959
+20. Nestlé: 879
+21. Spar: 838
+22. Dennree: 811
+23. Chef Select: 789
+24. Maggi: 779
+25. Jeden Tag: 750
 26. Biobio: 734
-27. Alnatura gmbh: 707
-28. Milsani: 694
-29. dm: 681
-30. Koro: 676
-31. Ja!: 665
-32. Haribo: 659
-33. Dulano: 637
-34. Rossmann: 580
-35. Esn: 575
-36. EDEKA Bio: 573
+27. Alnatura gmbh: 709
+28. Milsani: 696
+29. dm: 682
+30. Koro: 678
+31. Haribo: 660
+32. Ja!: 654
+33. Dulano: 640
+34. EDEKA Bio: 578
+35. Esn: 578
+36. Rossmann: 578
 37. Gutes Land: 553
-38. enerBiO: 541
-39. Netto: 538
-40. Globus: 537
-41. tegut: 537
-42. Deluxe: 527
+38. Globus: 542
+39. enerBiO: 541
+40. Netto: 539
+41. tegut: 538
+42. Deluxe: 529
 43. Rapunzel: 527
-44. Gut Bio: 515
-45. Gut & günstig: 515
-46. Bio: 498
-47. Kania: 455
-48. Gourmet Finest Cuisine: 455
-49. Vemondo: 452
-50. Iglo: 443
-51. Freshona: 441
-52. Asia Green Garden: 438
-53. Milka: 426
-54. K-Bio: 421
-55. Müller: 409
-56. ARO: 408
-57. Metzgerfrisch: 407
-58. Rewe bio: 406
-59. Rewe beste wahl: 403
-60. Ehrmann: 397
+44. Gut Bio: 514
+45. Gut & günstig: 506
+46. Bio: 500
+47. Gourmet Finest Cuisine: 458
+48. Kania: 456
+49. Vemondo: 454
+50. Iglo: 444
+51. Asia Green Garden: 443
+52. Freshona: 442
+53. Milka: 430
+54. K-Bio: 419
+55. Müller: 412
+56. Metzgerfrisch: 409
+57. ARO: 408
+58. Rewe bio: 401
+59. Ehrmann: 398
+60. Rewe beste wahl: 398
 
 ## Die 50 ersten Produkte der Datei
 
@@ -99,7 +99,7 @@
 12. Kalinka Kefir · müller
 13. Schoko Reis Waffeln · Alnatura
 14. Coca-Cola Original · Coca-Cola Company
-15. Veganer Schinken-Spicker Mortadella · Rügenwalder Mühle
+15. Rügenwalder Mühle Veganer Schinken-Spicker Mortadella 4000405004968 Vegane Schin · Rügenwalder Mühle
 16. Haferflocken Blütenzart · Kölln
 17. Red Bull Energydrink Classic · Red Bull
 18. Schinken Spicker - Grillgemüse · Rügenwalder Mühle
