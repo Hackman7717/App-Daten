@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Muskeln je Übung</title>
+<meta name="theme-color" content="#E4E9E5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A0F0C" media="(prefers-color-scheme: dark)">
+<style>
+@font-face{font-family:'Saira Condensed';font-weight:700;font-display:swap;src:url(/App/fonts/saira-condensed-700.woff) format('woff')}
+@font-face{font-family:'Saira Condensed';font-weight:800;font-display:swap;src:url(/App/fonts/saira-condensed-800.woff) format('woff')}
+@font-face{font-family:'Public Sans';font-weight:100 900;font-display:swap;src:url(/App/fonts/public-sans.woff) format('woff')}
+:root{--bg:#E4E9E5;--surface:#FFFFFF;--ink:#0F1612;--muted:#58635B;--line:#C8D1CA;--line-2:#8C998F;--accent:#1E5134;--accent-ink:#FFFFFF;--accent-soft:#DAE8DE;
+  --m1:#D02B25;--m2:#F19A86;--press:rgba(15,22,18,.07);color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0A0F0C;--surface:#121A15;--ink:#E2E9E4;--muted:#8C9A90;--line:#25312A;--line-2:#4A5A4F;--accent:#2E7149;--accent-ink:#FFFFFF;--accent-soft:#1A2E21;
+  --m1:#EE4A3E;--m2:#9C4A3E;--press:rgba(255,255,255,.07);color-scheme:dark}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 'Public Sans',system-ui,sans-serif}
+body{padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.wrap{max-width:560px;margin:0 auto;padding:12px 16px 40px}
+h1{font:800 26px/1 'Saira Condensed',sans-serif;text-transform:uppercase;letter-spacing:.02em;margin:6px 0 2px}
+.sub{color:var(--muted);font-size:13px;margin:0 0 12px}
+.stage{position:relative;background:var(--surface);border:1px solid var(--line);height:min(64vh,520px);overflow:hidden;touch-action:none}
+.stage canvas{display:block;width:100%;height:100%}
+.load{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:var(--muted);font-size:13px}
+.bar{width:160px;height:4px;background:var(--line)}.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+.views{position:absolute;left:8px;bottom:8px;display:flex;border:1px solid var(--line-2);background:var(--surface)}
+.views button{font:700 13px/1 'Saira Condensed',sans-serif;text-transform:uppercase;letter-spacing:.04em;padding:9px 12px;border:0;background:none;color:var(--ink)}
+.views button+button{border-left:1px solid var(--line)}
+.views button.on{background:var(--accent);color:var(--accent-ink)}
+.tip{position:absolute;left:50%;top:10px;transform:translateX(-50%);background:var(--ink);color:var(--bg);font-size:13px;padding:6px 10px;white-space:nowrap;opacity:0;transition:opacity .2s;pointer-events:none}
+.tip.on{opacity:1}
+.legend{position:absolute;right:8px;bottom:8px;font-size:12px;color:var(--muted);display:grid;gap:4px;text-align:right}
+.legend span::after{content:'';display:inline-block;width:10px;height:10px;margin-left:6px;vertical-align:-1px;background:var(--c)}
+.card{background:var(--surface);border:1px solid var(--line);padding:12px 14px;margin-top:10px}
+.card h2{font:800 20px/1.1 'Saira Condensed',sans-serif;margin:0}
+.card .v{color:var(--muted);font-weight:600}
+.mlist{margin:10px 0 0;display:grid;gap:8px}
+.mrow{display:flex;gap:10px;align-items:flex-start}
+.mrow b{font:700 12px/1.6 'Saira Condensed',sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);min-width:94px}
+.mrow b::before{content:'';display:inline-block;width:9px;height:9px;margin-right:6px;background:var(--c)}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:2px 0 6px;margin-top:14px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:700 14px/1 'Saira Condensed',sans-serif;text-transform:uppercase;letter-spacing:.03em;padding:9px 12px;border:1px solid var(--line-2);background:var(--surface);color:var(--ink)}
+.chip.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.list{border:1px solid var(--line);background:var(--surface);margin-top:6px}
+.ex{padding:10px 14px;border-top:1px solid var(--line)}
+.ex:first-child{border-top:0}
+.ex .n{font-weight:600}
+.ex .n.on{color:var(--accent)}
+@media (prefers-color-scheme:dark){.ex .n.on{color:#7FC59A}}
+.vars{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.vb{font:600 13px/1 'Public Sans',sans-serif;padding:7px 10px;border:1px solid var(--line);background:none;color:var(--ink)}
+.vb.on{background:var(--accent-soft);border-color:var(--accent)}
+button{cursor:pointer}
+.foot{color:var(--muted);font-size:12px;margin-top:18px}
+.foot a{color:inherit}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Muskeln je Übung</h1>
+  <p class="sub">Vorschau für die Übungsanzeige · ziehen zum Drehen, zwei Finger zum Zoomen, Muskel antippen für den Namen</p>
+
+  <div class="stage" id="stage">
+    <div class="load" id="load"><div>Modell wird geladen …</div><div class="bar"><i id="barI"></i></div></div>
+    <div class="tip" id="tip"></div>
+    <div class="views" id="views">
+      <button data-v="front">Vorne</button><button data-v="side">Seite</button><button data-v="back">Hinten</button>
+    </div>
+    <div class="legend"><span style="--c:var(--m1)">Hauptmuskeln</span><span style="--c:var(--m2)">Mitarbeitend</span></div>
+  </div>
+
+  <div class="card" id="info"></div>
+
+  <div class="chips" id="cats"></div>
+  <div class="list" id="list"></div>
+
+  <p class="foot">3D-Modell: <a href="https://www.z-anatomy.com">Z-Anatomy</a> (auf Grundlage von BodyParts3D, © DBCLS), Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>; vereinfacht, nur Muskeln und Skelett. Darstellung mit three.js (MIT).</p>
+</div>
+
+<script src="muskel-daten.js"></script>
+<script>var EXL = [["e1","Kniebeuge","Langhantel","Beine","Quadrizeps"],["k-kbmp","Kniebeuge","Multipresse","Beine","Quadrizeps"],["k-kbkg","Kniebeuge","Körpergewicht","Beine","Quadrizeps"],["k-fkb","Frontkniebeuge","","Beine","Quadrizeps"],["k-gob","Goblet Squat","Kurzhantel","Beine","Quadrizeps"],["k-gobkb","Goblet Squat","Kettlebell","Beine","Quadrizeps"],["k-bss","Bulgarian Split Squat","Kurzhantel","Beine","Quadrizeps"],["k-bsskg","Bulgarian Split Squat","Körpergewicht","Beine","Quadrizeps"],["k-afkh","Ausfallschritte","Kurzhantel","Beine","Quadrizeps"],["k-aflh","Ausfallschritte","Langhantel","Beine","Quadrizeps"],["k-afkg","Ausfallschritte","Körpergewicht","Beine","Quadrizeps"],["k-bp","Beinpresse","","Beine","Quadrizeps"],["k-hack","Hackenschmidt","","Beine","Quadrizeps"],["k-bst","Beinstrecker","","Beine","Quadrizeps"],["k-rdl","Rumänisches Kreuzheben","Langhantel","Beine","Beinbeuger"],["k-rdlkh","Rumänisches Kreuzheben","Kurzhantel","Beine","Beinbeuger"],["k-bbg","Beinbeuger","Liegend","Beine","Beinbeuger"],["k-bbgs","Beinbeuger","Sitzend","Beine","Beinbeuger"],["k-hip","Hip Thrust","Langhantel","Beine","Po"],["k-hipm","Hip Thrust","Maschine","Beine","Po"],["k-gbr","Beckenheben","","Beine","Po"],["k-gkb","Glute Kickbacks","Kabelzug","Beine","Po"],["k-gkbm","Glute Kickbacks","Maschine","Beine","Po"],["k-abd","Abduktoren","","Beine","Po"],["k-kbs","Kettlebell Swings","","Beine","Po"],["k-wad","Wadenheben","Stehend","Beine","Waden"],["k-wads","Wadenheben","Sitzend","Beine","Waden"],["k-wadbp","Wadenheben","Beinpresse","Beine","Waden"],["k-add","Adduktoren","","Beine","Adduktoren"],["e2","Bankdrücken","Langhantel","Brust",""],["k-bdkh","Bankdrücken","Kurzhantel","Brust",""],["k-bdmp","Bankdrücken","Multipresse","Brust",""],["k-sblh","Schrägbankdrücken","Langhantel","Brust",""],["k-sbkh","Schrägbankdrücken","Kurzhantel","Brust",""],["k-sbmp","Schrägbankdrücken","Multipresse","Brust",""],["k-brp","Brustpresse","","Brust",""],["k-bfly","Butterfly","","Brust",""],["k-flkh","Fliegende","Kurzhantel","Brust",""],["k-flkz","Fliegende","Kabelzug","Brust",""],["k-ls","Liegestütze","","Brust",""],["k-dips","Dips","Körpergewicht","Brust",""],["k-dipm","Dips","Maschine","Brust",""],["e3","Klimmzüge","Obergriff","Rücken","Latissimus"],["k-kzug","Klimmzüge","Untergriff","Rücken","Latissimus"],["k-lat","Latzug","Breiter Griff","Rücken","Latissimus"],["k-late","Latzug","Enger Griff","Rücken","Latissimus"],["k-latu","Latzug","Untergriff","Rücken","Latissimus"],["k-uez","Überzüge","Kabelzug","Rücken","Latissimus"],["k-uezkh","Überzüge","Kurzhantel","Rücken","Latissimus"],["k-rulh","Rudern","Langhantel","Rücken","Oberer Rücken"],["k-rukh","Rudern","Kurzhantel","Rücken","Oberer Rücken"],["k-rukz","Rudern","Kabelzug","Rücken","Oberer Rücken"],["k-rum","Rudern","Maschine","Rücken","Oberer Rücken"],["k-tbar","Rudern","T-Bar","Rücken","Oberer Rücken"],["k-rbf","Reverse Butterfly","Maschine","Rücken","Oberer Rücken"],["k-rbfkz","Reverse Butterfly","Kabelzug","Rücken","Oberer Rücken"],["k-vsh","Reverse Butterfly","Kurzhantel","Rücken","Oberer Rücken"],["k-shr","Shrugs","Kurzhantel","Rücken","Oberer Rücken"],["k-shrlh","Shrugs","Langhantel","Rücken","Oberer Rücken"],["k-kh","Kreuzheben","Langhantel","Rücken","Unterer Rücken"],["k-khsu","Kreuzheben","Sumo","Rücken","Unterer Rücken"],["k-khkh","Kreuzheben","Kurzhantel","Rücken","Unterer Rücken"],["k-rst","Rückenstrecker","Bank","Rücken","Unterer Rücken"],["k-rstm","Rückenstrecker","Maschine","Rücken","Unterer Rücken"],["k-sdkh","Schulterdrücken","Kurzhantel","Schultern","Vorne"],["k-sdlh","Schulterdrücken","Langhantel","Schultern","Vorne"],["k-sdm","Schulterdrücken","Maschine","Schultern","Vorne"],["k-sdmp","Schulterdrücken","Multipresse","Schultern","Vorne"],["k-arn","Arnold Press","","Schultern","Vorne"],["k-fh","Frontheben","Kurzhantel","Schultern","Vorne"],["k-fhkz","Frontheben","Kabelzug","Schultern","Vorne"],["k-sh","Seitheben","Kurzhantel","Schultern","Seitlich"],["k-shkz","Seitheben","Kabelzug","Schultern","Seitlich"],["k-shm","Seitheben","Maschine","Schultern","Seitlich"],["k-aur","Aufrechtes Rudern","SZ-Stange","Schultern","Seitlich"],["k-aurkz","Aufrechtes Rudern","Kabelzug","Schultern","Seitlich"],["k-fp","Face Pulls","","Schultern","Hinten"],["k-bckh","Bizeps-Curl","Kurzhantel","Arme","Bizeps"],["k-bclh","Bizeps-Curl","Langhantel","Arme","Bizeps"],["k-bcsz","Bizeps-Curl","SZ-Stange","Arme","Bizeps"],["k-bckz","Bizeps-Curl","Kabelzug","Arme","Bizeps"],["k-bcm","Bizeps-Curl","Maschine","Arme","Bizeps"],["k-hc","Hammer-Curl","Kurzhantel","Arme","Bizeps"],["k-hckz","Hammer-Curl","Kabelzug","Arme","Bizeps"],["k-kc","Konzentrationscurl","","Arme","Bizeps"],["k-sc","Scott-Curl","SZ-Stange","Arme","Bizeps"],["k-sckh","Scott-Curl","Kurzhantel","Arme","Bizeps"],["k-scm","Scott-Curl","Maschine","Arme","Bizeps"],["k-tdk","Trizepsdrücken","Stange","Arme","Trizeps"],["k-tds","Trizepsdrücken","Seil","Arme","Trizeps"],["k-fps","French Press","SZ-Stange","Arme","Trizeps"],["k-fpkh","French Press","Kurzhantel","Arme","Trizeps"],["k-tuk","Trizepsstrecken über Kopf","Kurzhantel","Arme","Trizeps"],["k-tukz","Trizepsstrecken über Kopf","Kabelzug","Arme","Trizeps"],["k-tkb","Trizeps-Kickbacks","Kurzhantel","Arme","Trizeps"],["k-tkbkz","Trizeps-Kickbacks","Kabelzug","Arme","Trizeps"],["k-ebd","Enges Bankdrücken","","Arme","Trizeps"],["k-tm","Trizepsmaschine","","Arme","Trizeps"],["k-bdip","Bankdips","","Arme","Trizeps"],["k-hgc","Handgelenk-Curl","Kurzhantel","Arme","Unterarme"],["k-hgclh","Handgelenk-Curl","Langhantel","Arme","Unterarme"],["k-rvc","Reverse-Curl","","Arme","Unterarme"],["e5","Unterarmstütz","","Bauch & Core",""],["k-ss","Seitstütz","","Bauch & Core",""],["k-cr","Crunches","Körpergewicht","Bauch & Core",""],["k-crk","Crunches","Kabelzug","Bauch & Core",""],["k-crm","Crunches","Maschine","Bauch & Core",""],["k-su","Sit-ups","","Bauch & Core",""],["k-hbh","Beinheben","Hängend","Bauch & Core",""],["k-lbh","Beinheben","Liegend","Bauch & Core",""],["k-rt","Russian Twist","","Bauch & Core",""],["k-br","Bauchroller","","Bauch & Core",""],["k-hh","Holzhacker","","Bauch & Core",""],["e4","Laufen","","Ausdauer",""],["k-geh","Gehen","","Ausdauer",""],["k-lb","Laufband","","Ausdauer",""],["k-rad","Radfahren","","Ausdauer",""],["k-erg","Fahrradergometer","","Ausdauer",""],["k-ct","Crosstrainer","","Ausdauer",""],["k-ts","Treppensteiger","","Ausdauer",""],["k-rg","Rudergerät","","Ausdauer",""],["k-sw","Schwimmen","","Ausdauer",""],["k-sp","Seilspringen","","Ausdauer",""],["k-bur","Burpees","","Ausdauer",""],["k-hm","Hampelmann","","Ausdauer",""],["k-mc","Mountain Climbers","","Ausdauer",""],["k-bro","Battle Ropes","","Ausdauer",""]];</script>
+<script type="module">
+import * as T from './three-mini.js';
+
+const $ = id => document.getElementById(id);
+const CATS = ['Beine','Brust','Rücken','Schultern','Arme','Bauch & Core','Ausdauer'];
+const norm = s => s.replace(/\s/g,'_').replace(/[\[\]\.:\/]/g,'');
+
+/* Knoten-Name im Modell → Muskelgruppe */
+const NODE2MUS = {};
+for (const [id,[, nodes]] of Object.entries(MUS)) for (const b of nodes) { NODE2MUS[norm(b+'.l')] = id; NODE2MUS[norm(b+'.r')] = id; }
+const NODE2DE = {};
+for (const [b,de] of Object.entries(MUS_DE)) { NODE2DE[norm(b+'.l')] = de; NODE2DE[norm(b+'.r')] = de; NODE2DE[norm(b)] = de; }
+
+/* ---------- Szene ---------- */
+const stage = $('stage');
+const dark = matchMedia('(prefers-color-scheme: dark)');
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const renderer = new T.WebGLRenderer({antialias:true, alpha:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.outputColorSpace = T.SRGBColorSpace;
+stage.prepend(renderer.domElement);
+const scene = new T.Scene();
+const cam = new T.PerspectiveCamera(30, 1, 0.05, 20);
+const hemi = new T.HemisphereLight(0xffffff, 0x8a8278, 1.6); scene.add(hemi);
+const key = new T.DirectionalLight(0xffffff, 1.5); key.position.set(1.5, 2.5, 3); scene.add(key);
+const rim = new T.DirectionalLight(0xffffff, 0.7); rim.position.set(-2, 1.5, -3); scene.add(rim);
+const ctl = new T.OrbitControls(cam, renderer.domElement);
+ctl.enableDamping = true; ctl.dampingFactor = .12; ctl.enablePan = false;
+ctl.minPolarAngle = Math.PI*.18; ctl.maxPolarAngle = Math.PI*.82;
+ctl.rotateSpeed = .8;
+
+const MAT = {};
+function makeMats() {
+  const d = dark.matches;
+  const base = {roughness:.75, metalness:0};
+  MAT.rest = new T.MeshStandardMaterial({...base, color: d ? 0x59605B : 0xC9BDB2});
+  MAT.bone = new T.MeshStandardMaterial({...base, color: d ? 0x8E897D : 0xEDE6D8});
+  MAT.p = new T.MeshStandardMaterial({...base, color: new T.Color(css('--m1')), roughness:.6});
+  MAT.s = new T.MeshStandardMaterial({...base, color: new T.Color(css('--m2')), roughness:.65});
+  MAT.xp = new T.MeshBasicMaterial({color: new T.Color(css('--m1')), transparent:true, opacity:.30, depthTest:false, depthWrite:false});
+  MAT.xs = new T.MeshBasicMaterial({color: new T.Color(css('--m2')), transparent:true, opacity:.18, depthTest:false, depthWrite:false});
+}
+makeMats();
+
+let model = null, center = new T.Vector3(), height = 1.7;
+const meshes = [];           // {mesh, mus, de, ghost}
+const loader = new T.GLTFLoader();
+loader.setMeshoptDecoder(T.MeshoptDecoder);
+loader.load('muskeln.glb', g => {
+  model = g.scene;
+  const found = []; model.traverse(o => { if (o.isMesh) found.push(o); });
+  for (const o of found) {
+    let p = o, nm = '';
+    for (; p && !nm; p = p.parent) { const k = (p.name || '').replace(/\d{3}$/, ''); if (k && (NODE2MUS[k] || NODE2DE[k] || /Skelett/.test(k))) nm = k; }
+    if (!nm) for (p = o; p && !nm; p = p.parent) nm = p.name || '';
+    const isBone = /Skelett/.test(nm);
+    o.material = isBone ? MAT.bone : MAT.rest;
+    const ghost = new T.Mesh(o.geometry, MAT.xp); ghost.visible = false; ghost.renderOrder = 10; o.add(ghost);
+    meshes.push({mesh:o, mus: NODE2MUS[nm] || null, de: NODE2DE[nm] || null, bone: isBone, ghost, nm});
+  }
+  scene.add(model);
+  const box = new T.Box3().setFromObject(model);
+  box.getCenter(center); height = box.max.y - box.min.y;
+  ctl.target.copy(center);
+  ctl.minDistance = height*.35; ctl.maxDistance = height*2.6;
+  $('load').remove();
+  apply();
+  view(curView || 'front', true);
+}, e => { if (e.total) $('barI').style.width = Math.round(e.loaded/e.total*100)+'%'; },
+   err => { $('load').firstChild.textContent = 'Modell konnte nicht geladen werden.'; console.error(err); });
+
+/* Kamera */
+let curView = null, anim = null;
+function view(v, now) {
+  curView = v;
+  document.querySelectorAll('#views button').forEach(b => b.classList.toggle('on', b.dataset.v === v));
+  const fit = (height/2) / Math.tan(cam.fov*Math.PI/360) * (cam.aspect < 1 ? 1.08 : 1.12);
+  const d = fit, a = {front:0, side:Math.PI/2, back:Math.PI}[v];
+  const to = new T.Vector3(center.x + Math.sin(a)*d, center.y, center.z + Math.cos(a)*d);
+  if (now) { cam.position.copy(to); ctl.update(); return; }
+  anim = {from: cam.position.clone(), to, t0: performance.now()};
+}
+$('views').onclick = e => { const b = e.target.closest('button'); if (b) view(b.dataset.v); };
+
+function resize() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  renderer.setSize(w, h, false); cam.aspect = w/h; cam.updateProjectionMatrix();
+}
+new ResizeObserver(resize).observe(stage); resize();
+
+function loop(t) {
+  if (anim) {
+    const k = Math.min(1, (t - anim.t0)/450), e = 1 - Math.pow(1-k, 3);
+    // auf dem Kreis um die Mitte drehen statt quer durch den Körper
+    const a0 = Math.atan2(anim.from.x-center.x, anim.from.z-center.z), a1 = Math.atan2(anim.to.x-center.x, anim.to.z-center.z);
+    let da = a1 - a0; while (da > Math.PI) da -= 2*Math.PI; while (da < -Math.PI) da += 2*Math.PI;
+    const r0 = Math.hypot(anim.from.x-center.x, anim.from.z-center.z), r1 = Math.hypot(anim.to.x-center.x, anim.to.z-center.z);
+    const a = a0 + da*e, r = r0 + (r1-r0)*e;
+    cam.position.set(center.x + Math.sin(a)*r, anim.from.y + (anim.to.y-anim.from.y)*e, center.z + Math.cos(a)*r);
+    if (k >= 1) anim = null;
+  }
+  ctl.update();
+  renderer.render(scene, cam);
+  requestAnimationFrame(loop);
+}
+requestAnimationFrame(loop);
+renderer.domElement.addEventListener('pointerdown', () => { anim = null; });
+
+/* Antippen: Name des Muskels */
+const ray = new T.Raycaster(), ptr = new T.Vector2();
+let down = null, tipT;
+renderer.domElement.addEventListener('pointerdown', e => { down = [e.clientX, e.clientY]; });
+renderer.domElement.addEventListener('pointerup', e => {
+  if (!down || Math.hypot(e.clientX-down[0], e.clientY-down[1]) > 6 || !model) return;
+  const r = renderer.domElement.getBoundingClientRect();
+  ptr.set((e.clientX-r.left)/r.width*2-1, -(e.clientY-r.top)/r.height*2+1);
+  ray.setFromCamera(ptr, cam);
+  const hit = ray.intersectObjects(meshes.map(m => m.mesh), false)[0];
+  if (!hit) return;
+  const m = meshes.find(x => x.mesh === hit.object);
+  const name = m.mus ? MUS[m.mus][0] : (m.de || (m.bone ? 'Skelett' : 'Muskel'));
+  const tip = $('tip'); tip.textContent = name; tip.classList.add('on');
+  clearTimeout(tipT); tipT = setTimeout(() => tip.classList.remove('on'), 1800);
+});
+
+/* ---------- Übungen ---------- */
+const fams = [];   // {name, cat, sub, vars:[{id,v}]}
+for (const [id,n,v,cat,sub] of EXL) {
+  let f = fams.find(x => x.name === n);
+  if (!f) fams.push(f = {name:n, cat, sub, vars:[]});
+  f.vars.push({id, v});
+}
+let cat = 'Beine', sel = {fam: fams[0], id: fams[0].vars[0].id};
+
+function cats() {
+  $('cats').innerHTML = CATS.map(c => `<button class="chip${c===cat?' on':''}" data-c="${c}">${c}</button>`).join('');
+}
+$('cats').onclick = e => { const b = e.target.closest('.chip'); if (!b) return; cat = b.dataset.c; cats(); list(); };
+
+function list() {
+  $('list').innerHTML = fams.filter(f => f.cat === cat).map(f => {
+    const on = f === sel.fam;
+    const vars = f.vars.length > 1 || f.vars[0].v ? `<div class="vars">${f.vars.map(x =>
+      `<button class="vb${x.id===sel.id?' on':''}" data-id="${x.id}">${x.v || 'Standard'}</button>`).join('')}</div>` : '';
+    return `<div class="ex" data-f="${fams.indexOf(f)}"><div class="n${on?' on':''}">${f.name}</div>${vars}</div>`;
+  }).join('');
+}
+$('list').onclick = e => {
+  const ex = e.target.closest('.ex'); if (!ex) return;
+  const f = fams[+ex.dataset.f], vb = e.target.closest('.vb');
+  sel = {fam: f, id: vb ? vb.dataset.id : (f === sel.fam ? sel.id : f.vars[0].id)};
+  list(); apply(true);
+  const r = stage.getBoundingClientRect(); if (r.top < 0 || r.bottom > innerHeight) window.scrollTo({top: scrollY + r.top - 12, behavior: 'smooth'});
+};
+
+function apply(turn) {
+  const f = sel.fam, v = f.vars.find(x => x.id === sel.id);
+  const m = exMuscles({id: sel.id, name: f.name, cat: f.cat, sub: f.sub});
+  const P = new Set(m.p), S = new Set(m.s);
+  const names = a => a.map(id => MUS[id][0]).join(', ') || '–';
+  $('info').innerHTML = `<h2>${f.name}${v && v.v ? ` <span class="v">· ${v.v}</span>` : ''}</h2>
+    <div class="mlist"><div class="mrow" style="--c:var(--m1)"><b>Hauptmuskeln</b><span>${names(m.p)}</span></div>
+    <div class="mrow" style="--c:var(--m2)"><b>Mitarbeitend</b><span>${names(m.s)}</span></div></div>`;
+  if (!model) return;
+  for (const x of meshes) {
+    const k = x.mus && P.has(x.mus) ? 'p' : x.mus && S.has(x.mus) ? 's' : null;
+    x.mesh.material = k ? MAT[k] : x.bone ? MAT.bone : MAT.rest;
+    x.ghost.visible = !!k; if (k) x.ghost.material = MAT['x'+k];
+  }
+  // automatisch die Seite zeigen, auf der die Hauptmuskeln liegen (bei Gleichstand die mitarbeitenden, sonst vorne)
+  const cnt = a => a.reduce((n, id) => n + (MUS_SIDE[id] === 'h' ? 1 : MUS_SIDE[id] === 'v' ? -1 : 0), 0);
+  const sc = cnt(m.p) * 3 + cnt(m.s), want = sc > 0 ? 'back' : 'front';
+  if (!model) { curView = want; return; }
+  if (turn) { if (curView !== 'side' && want !== curView) view(want); }
+  else view(want, !anim && !cam.position.lengthSq());
+}
+dark.addEventListener('change', () => { makeMats(); apply(); });
+
+cats(); list(); apply();
+</script>
+</body>
+</html>
