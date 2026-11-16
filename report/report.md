@@ -1,87 +1,87 @@
-# Deutsche Produkte, Stand 2026-11-09
+# Deutsche Produkte, Stand 2026-11-16
 
-- Produkte in der Datei: **245710** (7.3 MB gepackt, 19.5 MB entpackt)
-- Quelle: JSONL-Export (openfoodfacts-products.jsonl.gz), Laufzeit 1515 s
-- Gelesen: 441771, davon Deutschland: 438416
-- Aussortiert: ohne Kalorien 178420, ohne Name 13237, ohne Barcode 828, unplausibel 221
-- Namen: deutsch 361879, andere Sprache 63128
+- Produkte in der Datei: **246411** (7.4 MB gepackt, 19.6 MB entpackt)
+- Quelle: JSONL-Export (openfoodfacts-products.jsonl.gz), Laufzeit 411 s
+- Gelesen: 442988, davon Deutschland: 439639
+- Aussortiert: ohne Kalorien 178951, ohne Name 13245, ohne Barcode 833, unplausibel 199
+- Namen: deutsch 362954, andere Sprache 63267
 
-## Handelsmarken (eigene Zuordnung, 53142 Produkte)
+## Handelsmarken (eigene Zuordnung, 53162 Produkte)
 
-- **Lidl**: 11149 Produkte. Lidl 3029, Milbona 1373, Chef Select 785, Dulano 636, Deluxe 528, Kania 453, Freshona 440, Vemondo 425, Metzgerfrisch 377, Solevita 286, Italiamo 228, Alesto 204
-- **Aldi**: 9201 Produkte. ALDI 4654, Milsani 570, Asia Green Garden 359, Trader Joe's 347, Choceur 240, Meine Metzgerei 235, Belbake 222, Rio d'Oro 200, Almare 198, GutBio 170, Lyttos 164, Goldähren 160
-- **Rewe/Penny**: 12166 Produkte. REWE 3220, ja! 2384, PENNY 2354, REWE Beste Wahl 1566, REWE Bio 1085, Wilhelm Brandenburg 332, Naturgut 273, Food For Future 209, REWE Feine Welt 203, Rewe To Go 160, Penny Ready 136, San Fabio 127
-- **Edeka/Netto**: 8405 Produkte. EDEKA 3770, Gut & Günstig 1583, Biobio 732, Gutes Land 553, Gut Bio 513, Netto 486, EDEKA Bio 441, EDEKA Herzstücke 98, Gut & Günstig 97, Mein Veggie Tag 89, Kunella 14, Marktkauf 10
-- **Kaufland**: 5556 Produkte. K-Classic 3290, Kaufland 1558, K-Bio 415, K-Favourites 171, K Take It Veggie 68, K-to-go 24, Exquisit 17, K Free 13
-- **dm**: 3611 Produkte. dmBio 3111, dm 315, Mivolis 166, Das Gesunde Plus 19
-- **Rossmann**: 1171 Produkte. Rossmann 510, enerBiO 473, Babydream 166, Altapharma 22
-- **Norma**: 812 Produkte. Gourmet Finest Cuisine 458, NORMA 337, Tradition 17
-- **Globus**: 542 Produkte. Globus 542
-- **tegut**: 553 Produkte. tegut 535, Tegut Bio 18
-- **Metro**: 575 Produkte. ARO 405, Metro Chef 168, Metro Premium 2
+- **Lidl**: 11181 Produkte. Lidl 3025, Milbona 1376, Chef Select 790, Dulano 638, Deluxe 536, Kania 456, Freshona 440, Vemondo 430, Metzgerfrisch 381, Solevita 286, Italiamo 228, Favorina 207
+- **Aldi**: 9182 Produkte. ALDI 4669, Milsani 573, Asia Green Garden 361, Trader Joe's 347, Choceur 242, Meine Metzgerei 236, Belbake 222, Rio d'Oro 201, Almare 198, GutBio 170, Lyttos 164, Goldähren 162
+- **Rewe/Penny**: 12192 Produkte. REWE 3131, ja! 2423, PENNY 2351, REWE Beste Wahl 1604, REWE Bio 1110, Wilhelm Brandenburg 336, Naturgut 274, REWE Feine Welt 217, Food For Future 209, Rewe To Go 160, Penny Ready 145, San Fabio 110
+- **Edeka/Netto**: 8382 Produkte. EDEKA 3779, Gut & Günstig 1599, Biobio 736, Gutes Land 554, Netto 488, Gut Bio 470, EDEKA Bio 440, EDEKA Herzstücke 99, Gut & Günstig 92, Mein Veggie Tag 84, Kunella 14, Marktkauf 10
+- **Kaufland**: 5543 Produkte. K-Classic 3303, Kaufland 1575, K-Bio 376, K-Favourites 168, K Take It Veggie 67, K-to-go 24, Exquisit 17, K Free 13
+- **dm**: 3618 Produkte. dmBio 3118, dm 316, Mivolis 166, Das Gesunde Plus 18
+- **Rossmann**: 1172 Produkte. Rossmann 507, enerBiO 475, Babydream 166, Altapharma 24
+- **Norma**: 815 Produkte. Gourmet Finest Cuisine 460, NORMA 338, Tradition 17
+- **Globus**: 540 Produkte. Globus 540
+- **tegut**: 547 Produkte. tegut 532, Tegut Bio 15
+- **Metro**: 562 Produkte. ARO 405, Metro Chef 155, Metro Premium 2
 
 ## Häufigste Marken
 
-1. ALDI: 4654
-2. Lidl: 4201
-3. REWE: 4007
-4. EDEKA: 3781
-5. K-Classic: 3307
-6. dmBio: 3111
-7. PENNY: 2602
-8. ja!: 2584
-9. Kaufland: 2293
-10. Gut & Günstig: 2191
-11. REWE Beste Wahl: 1911
-12. Alnatura: 1803
-13. Milbona: 1435
-14. Migros: 1321
-15. Coop: 1248
-16. REWE Bio: 1241
-17. Knorr: 1094
-18. Dr. Oetker: 984
-19. Lindt: 959
-20. Nestlé: 879
-21. Spar: 838
-22. Dennree: 811
-23. Chef Select: 789
-24. Maggi: 779
-25. Jeden Tag: 750
-26. Biobio: 734
-27. Alnatura gmbh: 709
-28. Milsani: 696
-29. dm: 682
-30. Koro: 678
-31. Haribo: 660
-32. Ja!: 654
-33. Dulano: 640
+1. ALDI: 4669
+2. Lidl: 4213
+3. REWE: 4014
+4. EDEKA: 3789
+5. K-Classic: 3318
+6. dmBio: 3118
+7. PENNY: 2606
+8. ja!: 2593
+9. Kaufland: 2302
+10. Gut & Günstig: 2204
+11. REWE Beste Wahl: 1917
+12. Alnatura: 1808
+13. Milbona: 1434
+14. Migros: 1323
+15. Coop: 1257
+16. REWE Bio: 1247
+17. Knorr: 1095
+18. Dr. Oetker: 990
+19. Lindt: 962
+20. Nestlé: 878
+21. Spar: 840
+22. Dennree: 814
+23. Chef Select: 793
+24. Maggi: 781
+25. Jeden Tag: 758
+26. Biobio: 737
+27. Alnatura gmbh: 732
+28. Milsani: 700
+29. dm: 684
+30. Koro: 679
+31. Haribo: 664
+32. Ja!: 650
+33. Dulano: 642
 34. EDEKA Bio: 578
 35. Esn: 578
 36. Rossmann: 578
-37. Gutes Land: 553
-38. Globus: 542
+37. Gutes Land: 554
+38. Netto: 541
 39. enerBiO: 541
-40. Netto: 539
-41. tegut: 538
-42. Deluxe: 529
+40. Globus: 540
+41. Deluxe: 536
+42. tegut: 535
 43. Rapunzel: 527
-44. Gut Bio: 514
-45. Gut & günstig: 506
-46. Bio: 500
-47. Gourmet Finest Cuisine: 458
-48. Kania: 456
+44. Bio: 503
+45. Gut & günstig: 498
+46. Gut Bio: 471
+47. Gourmet Finest Cuisine: 460
+48. Kania: 459
 49. Vemondo: 454
-50. Iglo: 444
-51. Asia Green Garden: 443
+50. Asia Green Garden: 445
+51. Iglo: 443
 52. Freshona: 442
-53. Milka: 430
-54. K-Bio: 419
-55. Müller: 412
-56. Metzgerfrisch: 409
-57. ARO: 408
-58. Rewe bio: 401
-59. Ehrmann: 398
-60. Rewe beste wahl: 398
+53. Milka: 434
+54. Müller: 414
+55. Metzgerfrisch: 411
+56. ARO: 408
+57. Ehrmann: 399
+58. Rewe bio: 398
+59. Rewe beste wahl: 396
+60. Hipp: 385
 
 ## Die 50 ersten Produkte der Datei
 
@@ -119,7 +119,7 @@
 32. not milk · alpro
 33. Club-Mate Original · Club Mate
 34. Nuss-Nougat-Creme · Rapunzel
-35. Paulaner Spezi · Paulaner
+35. EDEKA hayunga Paulaner Spezi 1x Flaschen à 0.5 Liter Kiste je (1 Liter 1.00€) zz · Paulaner
 36. Senf mittelscharf · Baut'zner
 37. Milch Mandel ohne Zucker · Vemondo
 38. Coca-Cola Zero · Coca-Cola
@@ -127,7 +127,7 @@
 40. Lätta \\\ 🔺 3x Kerrygold \\\ 🔺 3x Rama \\\ 1x Streichfein · Lätta
 41. Nutella · Nutella
 42. Leibniz Butterkeks · Bahlsen
-43. Lätta · Flora Food
+43. Lätta · Lätta
 44. Hüttenkäse Original · Gervais
 45. Kinder Riegel Einzelpackung · Kinder
 46. Eiweißbrot · Goldähren
