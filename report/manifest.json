@@ -1,10 +1,10 @@
 {
  "format": "tb1",
- "v": "2026-11-16",
- "file": "de-20261116-1459d55d.tsv.gz",
- "n": 246411,
- "bytes": 7364315,
- "raw": 19586747,
- "sha256": "1459d55dced949e529b566cff01b0594101f3247507e3030d81051b552620ccb",
+ "v": "2026-11-23",
+ "file": "de-20261123-f585ae7f.tsv.gz",
+ "n": 247118,
+ "bytes": 7389451,
+ "raw": 19646740,
+ "sha256": "f585ae7ffc24fa570bca21a85960711cbad80053db59cb8e4e7c1597cc6a9065",
  "quelle": "Open Food Facts (https://world.openfoodfacts.org), ODbL 1.0"
 }
